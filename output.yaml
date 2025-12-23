@@ -2184,6 +2184,14 @@
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
+    - name: anthropic/claude-3.5-haiku
+      type: chat
+      max_input_tokens: 200000
+      input_price: 0.8
+      output_price: 4
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: true
     - name: anthropic/claude-3.5-haiku-20241022
       type: chat
       max_input_tokens: 200000
@@ -2192,11 +2200,11 @@
       max_output_tokens: 8192
       supports_vision: true
       supports_function_calling: true
-    - name: anthropic/claude-3.5-haiku
+    - name: anthropic/claude-3.5-sonnet
       type: chat
       max_input_tokens: 200000
-      input_price: 0.8
-      output_price: 4
+      input_price: 6
+      output_price: 30
       max_output_tokens: 8192
       supports_vision: true
       supports_function_calling: true
@@ -2208,14 +2216,6 @@
       max_output_tokens: 2048
       supports_vision: false
       supports_function_calling: false
-    - name: anthropic/claude-3.5-sonnet
-      type: chat
-      max_input_tokens: 200000
-      input_price: 6
-      output_price: 30
-      max_output_tokens: 8192
-      supports_vision: true
-      supports_function_calling: true
     - name: mistralai/ministral-8b
       type: chat
       max_input_tokens: 131072
@@ -2272,6 +2272,30 @@
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
+    - name: meta-llama/llama-3.2-11b-vision-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.05
+      output_price: 0.05
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: false
+    - name: meta-llama/llama-3.2-90b-vision-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.35
+      output_price: 0.4
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: false
+    - name: meta-llama/llama-3.2-1b-instruct
+      type: chat
+      max_input_tokens: 60000
+      input_price: 0.03
+      output_price: 0.2
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
     - name: meta-llama/llama-3.2-3b-instruct:free
       type: chat
       max_input_tokens: 131072
@@ -2288,30 +2312,6 @@
       max_output_tokens: 16384
       supports_vision: false
       supports_function_calling: true
-    - name: meta-llama/llama-3.2-1b-instruct
-      type: chat
-      max_input_tokens: 60000
-      input_price: 0.03
-      output_price: 0.2
-      max_output_tokens: 0
-      supports_vision: false
-      supports_function_calling: false
-    - name: meta-llama/llama-3.2-90b-vision-instruct
-      type: chat
-      max_input_tokens: 32768
-      input_price: 0.35
-      output_price: 0.4
-      max_output_tokens: 16384
-      supports_vision: true
-      supports_function_calling: false
-    - name: meta-llama/llama-3.2-11b-vision-instruct
-      type: chat
-      max_input_tokens: 131072
-      input_price: 0.05
-      output_price: 0.05
-      max_output_tokens: 16384
-      supports_vision: true
-      supports_function_calling: false
     - name: qwen/qwen-2.5-72b-instruct
       type: chat
       max_input_tokens: 32768
@@ -2352,14 +2352,6 @@
       max_output_tokens: 4000
       supports_vision: false
       supports_function_calling: true
-    - name: sao10k/l3.1-euryale-70b
-      type: chat
-      max_input_tokens: 32768
-      input_price: 0.65
-      output_price: 0.75
-      max_output_tokens: 0
-      supports_vision: false
-      supports_function_calling: true
     - name: qwen/qwen-2.5-vl-7b-instruct:free
       type: chat
       max_input_tokens: 32768
@@ -2376,6 +2368,14 @@
       max_output_tokens: 0
       supports_vision: true
       supports_function_calling: false
+    - name: sao10k/l3.1-euryale-70b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.65
+      output_price: 0.75
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
     - name: microsoft/phi-3.5-mini-128k-instruct
       type: chat
       max_input_tokens: 128000
@@ -2440,14 +2440,6 @@
       max_output_tokens: 32768
       supports_vision: false
       supports_function_calling: false
-    - name: meta-llama/llama-3.1-8b-instruct
-      type: chat
-      max_input_tokens: 131072
-      input_price: 0.02
-      output_price: 0.03
-      max_output_tokens: 16384
-      supports_vision: false
-      supports_function_calling: true
     - name: meta-llama/llama-3.1-405b-instruct:free
       type: chat
       max_input_tokens: 131072
@@ -2462,6 +2454,14 @@
       input_price: 3.5
       output_price: 3.5
       max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: meta-llama/llama-3.1-8b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.02
+      output_price: 0.03
+      max_output_tokens: 16384
       supports_vision: false
       supports_function_calling: true
     - name: meta-llama/llama-3.1-70b-instruct
@@ -2520,6 +2520,14 @@
       max_output_tokens: 8192
       supports_vision: false
       supports_function_calling: true
+    - name: mistralai/mistral-7b-instruct-v0.3
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.2
+      output_price: 0.2
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: false
     - name: nousresearch/hermes-2-pro-llama-3-8b
       type: chat
       max_input_tokens: 8192
@@ -2544,14 +2552,6 @@
       max_output_tokens: 16384
       supports_vision: false
       supports_function_calling: true
-    - name: mistralai/mistral-7b-instruct-v0.3
-      type: chat
-      max_input_tokens: 32768
-      input_price: 0.2
-      output_price: 0.2
-      max_output_tokens: 4096
-      supports_vision: false
-      supports_function_calling: false
     - name: microsoft/phi-3-mini-128k-instruct
       type: chat
       max_input_tokens: 128000
@@ -2736,20 +2736,20 @@
       max_output_tokens: 4096
       supports_vision: false
       supports_function_calling: true
-    - name: openai/gpt-3.5-turbo-instruct
-      type: chat
-      max_input_tokens: 4095
-      input_price: 1.5
-      output_price: 2
-      max_output_tokens: 4096
-      supports_vision: false
-      supports_function_calling: false
     - name: mistralai/mistral-7b-instruct-v0.1
       type: chat
       max_input_tokens: 2824
       input_price: 0.11
       output_price: 0.19
       max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-3.5-turbo-instruct
+      type: chat
+      max_input_tokens: 4095
+      input_price: 1.5
+      output_price: 2
+      max_output_tokens: 4096
       supports_vision: false
       supports_function_calling: false
     - name: openai/gpt-3.5-turbo-16k
@@ -2784,7 +2784,7 @@
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
-    - name: openai/gpt-4-0314
+    - name: openai/gpt-4
       type: chat
       max_input_tokens: 8191
       input_price: 30
@@ -2792,7 +2792,7 @@
       max_output_tokens: 4096
       supports_vision: false
       supports_function_calling: true
-    - name: openai/gpt-4
+    - name: openai/gpt-4-0314
       type: chat
       max_input_tokens: 8191
       input_price: 30
