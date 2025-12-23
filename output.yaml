@@ -1,2812 +1,2810 @@
-version: 0.30.0
-list:
-  - provider: openrouter
-    models:
-      - name: minimax/minimax-m2.1
-        type: chat
-        max_input_tokens: 204800
-        input_price: 0.3
-        output_price: 1.2
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: z-ai/glm-4.7-20251222
-        type: chat
-        max_input_tokens: 202752
-        input_price: 0.44
-        output_price: 1.74
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: google/gemini-3-flash-preview-20251217
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 0.5
-        output_price: 3
-        max_output_tokens: 65535
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/mistral-small-creative-20251216
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.09999999999999999
-        output_price: 0.3
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: allenai/olmo-3.1-32b-think-20251215
-        type: chat
-        max_input_tokens: 65536
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: false
-      - name: xiaomi/mimo-v2-flash-20251210
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: nvidia/nemotron-3-nano-30b-a3b
-        type: chat
-        max_input_tokens: 256000
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: nvidia/nemotron-3-nano-30b-a3b
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.06
-        output_price: 0.24
-        max_output_tokens: 262144
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-5.2-chat-20251211
-        type: chat
-        max_input_tokens: 128000
-        input_price: 1.75
-        output_price: 14
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-5.2-pro-20251211
-        type: chat
-        max_input_tokens: 400000
-        input_price: 21
-        output_price: 168
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-5.2-20251211
-        type: chat
-        max_input_tokens: 400000
-        input_price: 1.75
-        output_price: 14
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/devstral-2512
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/devstral-2512
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.049999999999999996
-        output_price: 0.22
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: relace/relace-search-20251208
-        type: chat
-        max_input_tokens: 256000
-        input_price: 1
-        output_price: 3
-        max_output_tokens: 128000
-        supports_vision: false
-        supports_function_calling: true
-      - name: z-ai/glm-4.6-20251208
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.3
-        output_price: 0.8999999999999999
-        max_output_tokens: 24000
-        supports_vision: true
-        supports_function_calling: true
-      - name: nex-agi/deepseek-v3.1-nex-n1
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 163840
-        supports_vision: false
-        supports_function_calling: true
-      - name: essentialai/rnj-1-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.15
-        output_price: 0.15
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openrouter/bodybuilder
-        type: chat
-        max_input_tokens: 128000
-        input_price: -1e+06
-        output_price: -1e+06
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-5.1-codex-max-20251204
-        type: chat
-        max_input_tokens: 400000
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: amazon/nova-2-lite-v1
-        type: chat
-        max_input_tokens: 1000000
-        input_price: 0.3
-        output_price: 2.5
-        max_output_tokens: 65535
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/ministral-14b-2512
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.19999999999999998
-        output_price: 0.19999999999999998
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/ministral-8b-2512
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.15
-        output_price: 0.15
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/ministral-3b-2512
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.09999999999999999
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/mistral-large-2512
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.5
-        output_price: 1.5
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: arcee-ai/trinity-mini-20251201
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: arcee-ai/trinity-mini-20251201
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.045
-        output_price: 0.15
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: deepseek/deepseek-v3.2-speciale-20251201
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.27
-        output_price: 0.41
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: false
-      - name: deepseek/deepseek-v3.2-20251201
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.26
-        output_price: 0.38
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: prime-intellect/intellect-3-20251126
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.19999999999999998
-        output_price: 1.1
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: tngtech/tng-r1t-chimera
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 163840
-        supports_vision: false
-        supports_function_calling: true
-      - name: tngtech/tng-r1t-chimera
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.3
-        output_price: 1.2
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: anthropic/claude-4.5-opus-20251124
-        type: chat
-        max_input_tokens: 200000
-        input_price: 5
-        output_price: 25
-        max_output_tokens: 32000
-        supports_vision: true
-        supports_function_calling: true
-      - name: allenai/olmo-3-32b-think-20251121
-        type: chat
-        max_input_tokens: 65536
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: false
-      - name: allenai/olmo-3-7b-instruct-20251121
-        type: chat
-        max_input_tokens: 65536
-        input_price: 0.09999999999999999
-        output_price: 0.19999999999999998
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: allenai/olmo-3-7b-think-20251121
-        type: chat
-        max_input_tokens: 65536
-        input_price: 0.12
-        output_price: 0.19999999999999998
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: false
-      - name: google/gemini-3-pro-image-preview-20251120
-        type: chat
-        max_input_tokens: 65536
-        input_price: 2
-        output_price: 12
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: false
-      - name: x-ai/grok-4.1-fast
-        type: chat
-        max_input_tokens: 2000000
-        input_price: 0.19999999999999998
-        output_price: 0.5
-        max_output_tokens: 30000
-        supports_vision: true
-        supports_function_calling: true
-      - name: google/gemini-3-pro-preview-20251117
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 2
-        output_price: 12
-        max_output_tokens: 65536
-        supports_vision: true
-        supports_function_calling: true
-      - name: deepcogito/cogito-v2.1-671b-20251118
-        type: chat
-        max_input_tokens: 128000
-        input_price: 1.25
-        output_price: 1.25
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-5.1-20251113
-        type: chat
-        max_input_tokens: 400000
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-5.1-chat-20251113
-        type: chat
-        max_input_tokens: 128000
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-5.1-codex-20251113
-        type: chat
-        max_input_tokens: 400000
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-5.1-codex-mini-20251113
-        type: chat
-        max_input_tokens: 400000
-        input_price: 0.25
-        output_price: 2
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: true
-      - name: kwaipilot/kat-coder-pro-v1
-        type: chat
-        max_input_tokens: 256000
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: true
-      - name: moonshotai/kimi-k2-thinking-20251106
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.39999999999999997
-        output_price: 1.75
-        max_output_tokens: 65535
-        supports_vision: false
-        supports_function_calling: true
-      - name: amazon/nova-premier-v1
-        type: chat
-        max_input_tokens: 1000000
-        input_price: 2.5
-        output_price: 12.5
-        max_output_tokens: 32000
-        supports_vision: true
-        supports_function_calling: true
-      - name: perplexity/sonar-pro-search
-        type: chat
-        max_input_tokens: 200000
-        input_price: 3
-        output_price: 15
-        max_output_tokens: 8000
-        supports_vision: true
-        supports_function_calling: false
-      - name: mistralai/voxtral-small-24b-2507
-        type: chat
-        max_input_tokens: 32000
-        input_price: 0.09999999999999999
-        output_price: 0.3
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-oss-safeguard-20b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.075
-        output_price: 0.3
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: nvidia/nemotron-nano-12b-v2-vl
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: nvidia/nemotron-nano-12b-v2-vl
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.19999999999999998
-        output_price: 0.6
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: false
-      - name: minimax/minimax-m2
-        type: chat
-        max_input_tokens: 196608
-        input_price: 0.19999999999999998
-        output_price: 1
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-vl-32b-instruct
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.5
-        output_price: 1.5
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: false
-      - name: liquid/lfm2-8b-a1b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.049999999999999996
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: liquid/lfm-2.2-6b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.049999999999999996
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: ibm-granite/granite-4.0-h-micro
-        type: chat
-        max_input_tokens: 131000
-        input_price: 0.017
-        output_price: 0.11
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: deepcogito/cogito-v2-preview-llama-405b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 3.5
-        output_price: 3.5
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-5-image-mini
-        type: chat
-        max_input_tokens: 400000
-        input_price: 2.5
-        output_price: 2
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: anthropic/claude-4.5-haiku-20251001
-        type: chat
-        max_input_tokens: 200000
-        input_price: 1
-        output_price: 5
-        max_output_tokens: 64000
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen3-vl-8b-thinking
-        type: chat
-        max_input_tokens: 256000
-        input_price: 0.18
-        output_price: 2.0999999999999996
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen3-vl-8b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.064
-        output_price: 0.39999999999999997
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-5-image
-        type: chat
-        max_input_tokens: 400000
-        input_price: 10
-        output_price: 10
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/o3-deep-research-2025-06-26
-        type: chat
-        max_input_tokens: 200000
-        input_price: 10
-        output_price: 40
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/o4-mini-deep-research-2025-06-26
-        type: chat
-        max_input_tokens: 200000
-        input_price: 2
-        output_price: 8
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: true
-      - name: nvidia/llama-3.3-nemotron-super-49b-v1.5
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.09999999999999999
-        output_price: 0.39999999999999997
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: baidu/ernie-4.5-21b-a3b-thinking
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.056
-        output_price: 0.224
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: false
-      - name: google/gemini-2.5-flash-image
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.3
-        output_price: 2.5
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: false
-      - name: qwen/qwen3-vl-30b-a3b-thinking
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.16
-        output_price: 0.7999999999999999
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen3-vl-30b-a3b-instruct
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.15
-        output_price: 0.6
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-5-pro-2025-10-06
-        type: chat
-        max_input_tokens: 400000
-        input_price: 15
-        output_price: 120
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: z-ai/glm-4.6
-        type: chat
-        max_input_tokens: 204800
-        input_price: 0.39
-        output_price: 1.9
-        max_output_tokens: 204800
-        supports_vision: false
-        supports_function_calling: true
-      - name: z-ai/glm-4.6
-        type: chat
-        max_input_tokens: 204800
-        input_price: 0.44
-        output_price: 1.76
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: anthropic/claude-4.5-sonnet-20250929
-        type: chat
-        max_input_tokens: 1000000
-        input_price: 3
-        output_price: 15
-        max_output_tokens: 64000
-        supports_vision: true
-        supports_function_calling: true
-      - name: deepseek/deepseek-v3.2-exp
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.21
-        output_price: 0.32
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: thedrummer/cydonia-24b-v4.1
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.3
-        output_price: 0.5
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: false
-      - name: relace/relace-apply-3
-        type: chat
-        max_input_tokens: 256000
-        input_price: 0.85
-        output_price: 1.25
-        max_output_tokens: 128000
-        supports_vision: false
-        supports_function_calling: false
-      - name: google/gemini-2.5-flash-preview-09-2025
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 0.3
-        output_price: 2.5
-        max_output_tokens: 65536
-        supports_vision: true
-        supports_function_calling: true
-      - name: google/gemini-2.5-flash-lite-preview-09-2025
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 0.09999999999999999
-        output_price: 0.39999999999999997
-        max_output_tokens: 65536
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen3-vl-235b-a22b-thinking
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.3
-        output_price: 1.2
-        max_output_tokens: 262144
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen3-vl-235b-a22b-instruct
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.19999999999999998
-        output_price: 1.2
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen3-max
-        type: chat
-        max_input_tokens: 256000
-        input_price: 1.2
-        output_price: 6
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-coder-plus
-        type: chat
-        max_input_tokens: 128000
-        input_price: 1
-        output_price: 5
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-5-codex
-        type: chat
-        max_input_tokens: 400000
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: deepseek/deepseek-v3.1-terminus
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.21
-        output_price: 0.7899999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: deepseek/deepseek-v3.1-terminus
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.21
-        output_price: 0.7899999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: x-ai/grok-4-fast
-        type: chat
-        max_input_tokens: 2000000
-        input_price: 0.19999999999999998
-        output_price: 0.5
-        max_output_tokens: 30000
-        supports_vision: true
-        supports_function_calling: true
-      - name: alibaba/tongyi-deepresearch-30b-a3b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: alibaba/tongyi-deepresearch-30b-a3b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.09
-        output_price: 0.39999999999999997
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-coder-flash
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.3
-        output_price: 1.5
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: opengvlab/internvl3-78b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.09999999999999999
-        output_price: 0.39
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: false
-      - name: qwen/qwen3-next-80b-a3b-thinking-2509
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.12
-        output_price: 1.2
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-next-80b-a3b-instruct-2509
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.09
-        output_price: 1.1
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: meituan/longcat-flash-chat
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.19999999999999998
-        output_price: 0.7999999999999999
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: false
-      - name: qwen/qwen-plus-2025-07-28
-        type: chat
-        max_input_tokens: 1000000
-        input_price: 0.39999999999999997
-        output_price: 1.2
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen-plus-2025-07-28
-        type: chat
-        max_input_tokens: 1000000
-        input_price: 0.39999999999999997
-        output_price: 4
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: true
-      - name: nvidia/nemotron-nano-9b-v2
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: nvidia/nemotron-nano-9b-v2
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.04
-        output_price: 0.16
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: moonshotai/kimi-k2-0905
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.39
-        output_price: 1.9
-        max_output_tokens: 262144
-        supports_vision: false
-        supports_function_calling: true
-      - name: moonshotai/kimi-k2-0905
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.6
-        output_price: 2.5
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: deepcogito/cogito-v2-preview-llama-70b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.88
-        output_price: 0.88
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: deepcogito/cogito-v2-preview-llama-109b-moe
-        type: chat
-        max_input_tokens: 32767
-        input_price: 0.18
-        output_price: 0.59
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: stepfun-ai/step3
-        type: chat
-        max_input_tokens: 65536
-        input_price: 0.5700000000000001
-        output_price: 1.42
-        max_output_tokens: 65536
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen3-30b-a3b-thinking-2507
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.051
-        output_price: 0.33999999999999997
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: x-ai/grok-code-fast-1
-        type: chat
-        max_input_tokens: 256000
-        input_price: 0.19999999999999998
-        output_price: 1.5
-        max_output_tokens: 10000
-        supports_vision: false
-        supports_function_calling: true
-      - name: nousresearch/hermes-4-70b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.11
-        output_price: 0.38
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: nousresearch/hermes-4-405b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.3
-        output_price: 1.2
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: google/gemini-2.5-flash-image-preview
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.3
-        output_price: 2.5
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: false
-      - name: deepseek/deepseek-chat-v3.1
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0.15
-        output_price: 0.75
-        max_output_tokens: 7168
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-4o-audio-preview
-        type: chat
-        max_input_tokens: 128000
-        input_price: 2.5
-        output_price: 10
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-medium-3.1
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.39999999999999997
-        output_price: 2
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: baidu/ernie-4.5-21b-a3b
-        type: chat
-        max_input_tokens: 120000
-        input_price: 0.056
-        output_price: 0.224
-        max_output_tokens: 8000
-        supports_vision: false
-        supports_function_calling: true
-      - name: baidu/ernie-4.5-vl-28b-a3b
-        type: chat
-        max_input_tokens: 30000
-        input_price: 0.112
-        output_price: 0.448
-        max_output_tokens: 8000
-        supports_vision: true
-        supports_function_calling: true
-      - name: z-ai/glm-4.5v
-        type: chat
-        max_input_tokens: 65536
-        input_price: 0.48
-        output_price: 1.44
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: ai21/jamba-mini-1.7
-        type: chat
-        max_input_tokens: 256000
-        input_price: 0.19999999999999998
-        output_price: 0.39999999999999997
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: true
-      - name: ai21/jamba-large-1.7
-        type: chat
-        max_input_tokens: 256000
-        input_price: 2
-        output_price: 8
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-5-chat-2025-08-07
-        type: chat
-        max_input_tokens: 128000
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: false
-      - name: openai/gpt-5-2025-08-07
-        type: chat
-        max_input_tokens: 400000
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-5-mini-2025-08-07
-        type: chat
-        max_input_tokens: 400000
-        input_price: 0.25
-        output_price: 2
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-5-nano-2025-08-07
-        type: chat
-        max_input_tokens: 400000
-        input_price: 0.049999999999999996
-        output_price: 0.39999999999999997
-        max_output_tokens: 128000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-oss-120b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-oss-120b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.039
-        output_price: 0.19
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-oss-120b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.039
-        output_price: 0.19
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-oss-20b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 128000
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-oss-20b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.03
-        output_price: 0.14
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: anthropic/claude-4.1-opus-20250805
-        type: chat
-        max_input_tokens: 200000
-        input_price: 15
-        output_price: 75
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/codestral-2508
-        type: chat
-        max_input_tokens: 256000
-        input_price: 0.3
-        output_price: 0.8999999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-coder-30b-a3b-instruct
-        type: chat
-        max_input_tokens: 160000
-        input_price: 0.07
-        output_price: 0.27
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-30b-a3b-instruct-2507
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.08
-        output_price: 0.33
-        max_output_tokens: 262144
-        supports_vision: false
-        supports_function_calling: true
-      - name: z-ai/glm-4.5
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.35
-        output_price: 1.55
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: z-ai/glm-4.5-air
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: z-ai/glm-4.5-air
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.10400000000000001
-        output_price: 0.6799999999999999
-        max_output_tokens: 98304
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-235b-a22b-thinking-2507
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.11
-        output_price: 0.6
-        max_output_tokens: 262144
-        supports_vision: false
-        supports_function_calling: true
-      - name: z-ai/glm-4-32b-0414
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.09999999999999999
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-coder-480b-a35b-07-25
-        type: chat
-        max_input_tokens: 262000
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 262000
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-coder-480b-a35b-07-25
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.22
-        output_price: 0.95
-        max_output_tokens: 262144
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-coder-480b-a35b-07-25
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.22
-        output_price: 1.7999999999999998
-        max_output_tokens: 65536
-        supports_vision: false
-        supports_function_calling: true
-      - name: bytedance/ui-tars-1.5-7b
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.09999999999999999
-        output_price: 0.19999999999999998
-        max_output_tokens: 2048
-        supports_vision: true
-        supports_function_calling: false
-      - name: google/gemini-2.5-flash-lite
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 0.09999999999999999
-        output_price: 0.39999999999999997
-        max_output_tokens: 65535
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen3-235b-a22b-07-25
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.071
-        output_price: 0.463
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: switchpoint/router
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.85
-        output_price: 3.4
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: moonshotai/kimi-k2
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: moonshotai/kimi-k2
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.456
-        output_price: 1.8399999999999999
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: thudm/glm-4.1v-9b-thinking
-        type: chat
-        max_input_tokens: 65536
-        input_price: 0.028
-        output_price: 0.1104
-        max_output_tokens: 8000
-        supports_vision: true
-        supports_function_calling: false
-      - name: mistralai/devstral-medium-2507
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.39999999999999997
-        output_price: 2
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/devstral-small-2507
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.07
-        output_price: 0.28
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: venice/uncensored
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: x-ai/grok-4-07-09
-        type: chat
-        max_input_tokens: 256000
-        input_price: 3
-        output_price: 15
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: google/gemma-3n-e2b-it
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 2048
-        supports_vision: false
-        supports_function_calling: false
-      - name: tencent/hunyuan-a13b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.14
-        output_price: 0.5700000000000001
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: false
-      - name: tngtech/deepseek-r1t2-chimera
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: tngtech/deepseek-r1t2-chimera
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.3
-        output_price: 1.2
-        max_output_tokens: 163840
-        supports_vision: false
-        supports_function_calling: true
-      - name: morph/morph-v3-large
-        type: chat
-        max_input_tokens: 262144
-        input_price: 0.8999999999999999
-        output_price: 1.9
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: false
-      - name: morph/morph-v3-fast
-        type: chat
-        max_input_tokens: 81920
-        input_price: 0.7999999999999999
-        output_price: 1.2
-        max_output_tokens: 38000
-        supports_vision: false
-        supports_function_calling: false
-      - name: baidu/ernie-4.5-vl-424b-a47b
-        type: chat
-        max_input_tokens: 123000
-        input_price: 0.33599999999999997
-        output_price: 1
-        max_output_tokens: 16000
-        supports_vision: true
-        supports_function_calling: false
-      - name: baidu/ernie-4.5-300b-a47b
-        type: chat
-        max_input_tokens: 123000
-        input_price: 0.224
-        output_price: 0.88
-        max_output_tokens: 12000
-        supports_vision: false
-        supports_function_calling: false
-      - name: inception/mercury
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.25
-        output_price: 1
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-small-3.2-24b-instruct-2506
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.06
-        output_price: 0.18
-        max_output_tokens: 131072
-        supports_vision: true
-        supports_function_calling: true
-      - name: minimax/minimax-m1
-        type: chat
-        max_input_tokens: 1000000
-        input_price: 0.39999999999999997
-        output_price: 2.2
-        max_output_tokens: 40000
-        supports_vision: false
-        supports_function_calling: true
-      - name: google/gemini-2.5-flash
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 0.3
-        output_price: 2.5
-        max_output_tokens: 65535
-        supports_vision: true
-        supports_function_calling: true
-      - name: google/gemini-2.5-pro
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 65536
-        supports_vision: true
-        supports_function_calling: true
-      - name: moonshotai/kimi-dev-72b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.29
-        output_price: 1.15
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/o3-pro-2025-06-10
-        type: chat
-        max_input_tokens: 200000
-        input_price: 20
-        output_price: 80
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: true
-      - name: x-ai/grok-3-mini
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.3
-        output_price: 0.5
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: x-ai/grok-3
-        type: chat
-        max_input_tokens: 131072
-        input_price: 3
-        output_price: 15
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: google/gemini-2.5-pro-preview-06-05
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 65536
-        supports_vision: true
-        supports_function_calling: true
-      - name: deepseek/deepseek-r1-0528-qwen3-8b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.02
-        output_price: 0.09999999999999999
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: false
-      - name: deepseek/deepseek-r1-0528
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: deepseek/deepseek-r1-0528
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.39999999999999997
-        output_price: 1.75
-        max_output_tokens: 163840
-        supports_vision: false
-        supports_function_calling: true
-      - name: anthropic/claude-4-opus-20250522
-        type: chat
-        max_input_tokens: 200000
-        input_price: 15
-        output_price: 75
-        max_output_tokens: 32000
-        supports_vision: true
-        supports_function_calling: true
-      - name: anthropic/claude-4-sonnet-20250522
-        type: chat
-        max_input_tokens: 1000000
-        input_price: 3
-        output_price: 15
-        max_output_tokens: 64000
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/devstral-small-2505
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.06
-        output_price: 0.12
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: google/gemma-3n-e4b-it
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 2048
-        supports_vision: false
-        supports_function_calling: false
-      - name: google/gemma-3n-e4b-it
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.02
-        output_price: 0.04
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/codex-mini
-        type: chat
-        max_input_tokens: 200000
-        input_price: 1.5
-        output_price: 6
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: true
-      - name: nousresearch/deephermes-3-mistral-24b-preview
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.02
-        output_price: 0.09999999999999999
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-medium-3
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.39999999999999997
-        output_price: 2
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: google/gemini-2.5-pro-preview-03-25
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 1.25
-        output_price: 10
-        max_output_tokens: 65535
-        supports_vision: true
-        supports_function_calling: true
-      - name: arcee-ai/spotlight
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.18
-        output_price: 0.18
-        max_output_tokens: 65537
-        supports_vision: true
-        supports_function_calling: false
-      - name: arcee-ai/maestro-reasoning
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.8999999999999999
-        output_price: 3.3000000000000003
-        max_output_tokens: 32000
-        supports_vision: false
-        supports_function_calling: false
-      - name: arcee-ai/virtuoso-large
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.75
-        output_price: 1.2
-        max_output_tokens: 64000
-        supports_vision: false
-        supports_function_calling: true
-      - name: arcee-ai/coder-large
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.5
-        output_price: 0.7999999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: microsoft/phi-4-reasoning-plus-04-30
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.07
-        output_price: 0.35
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: inception/mercury-coder-small-beta
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.25
-        output_price: 1
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-4b-04-28
-        type: chat
-        max_input_tokens: 40960
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: deepseek/deepseek-prover-v2
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.5
-        output_price: 2.1799999999999997
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: meta-llama/llama-guard-4-12b
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.18
-        output_price: 0.18
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: false
-      - name: qwen/qwen3-30b-a3b-04-28
-        type: chat
-        max_input_tokens: 40960
-        input_price: 0.06
-        output_price: 0.22
-        max_output_tokens: 40960
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-8b-04-28
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.028
-        output_price: 0.1104
-        max_output_tokens: 20000
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-14b-04-28
-        type: chat
-        max_input_tokens: 40960
-        input_price: 0.049999999999999996
-        output_price: 0.22
-        max_output_tokens: 40960
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-32b-04-28
-        type: chat
-        max_input_tokens: 40960
-        input_price: 0.08
-        output_price: 0.24
-        max_output_tokens: 40960
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen3-235b-a22b-04-28
-        type: chat
-        max_input_tokens: 40960
-        input_price: 0.18
-        output_price: 0.54
-        max_output_tokens: 40960
-        supports_vision: false
-        supports_function_calling: true
-      - name: tngtech/deepseek-r1t-chimera
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: tngtech/deepseek-r1t-chimera
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.3
-        output_price: 1.2
-        max_output_tokens: 163840
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/o4-mini-high-2025-04-16
-        type: chat
-        max_input_tokens: 200000
-        input_price: 1.1
-        output_price: 4.4
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/o3-2025-04-16
-        type: chat
-        max_input_tokens: 200000
-        input_price: 2
-        output_price: 8
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/o4-mini-2025-04-16
-        type: chat
-        max_input_tokens: 200000
-        input_price: 1.1
-        output_price: 4.4
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen2.5-coder-7b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.03
-        output_price: 0.09
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-4.1-2025-04-14
-        type: chat
-        max_input_tokens: 1047576
-        input_price: 2
-        output_price: 8
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-4.1-mini-2025-04-14
-        type: chat
-        max_input_tokens: 1047576
-        input_price: 0.39999999999999997
-        output_price: 1.5999999999999999
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-4.1-nano-2025-04-14
-        type: chat
-        max_input_tokens: 1047576
-        input_price: 0.09999999999999999
-        output_price: 0.39999999999999997
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: true
-      - name: eleutherai/llemma_7b
-        type: chat
-        max_input_tokens: 4096
-        input_price: 0.7999999999999999
-        output_price: 1.2
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: false
-      - name: alfredpros/codellama-7b-instruct-solidity
-        type: chat
-        max_input_tokens: 4096
-        input_price: 0.7999999999999999
-        output_price: 1.2
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: false
-      - name: arliai/qwq-32b-arliai-rpr-v1
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.03
-        output_price: 0.11
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: false
-      - name: x-ai/grok-3-mini-beta
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.3
-        output_price: 0.5
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: x-ai/grok-3-beta
-        type: chat
-        max_input_tokens: 131072
-        input_price: 3
-        output_price: 15
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: nvidia/llama-3.1-nemotron-ultra-253b-v1
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.6
-        output_price: 1.7999999999999998
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: meta-llama/llama-4-maverick-17b-128e-instruct
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 0.15
-        output_price: 0.6
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: meta-llama/llama-4-scout-17b-16e-instruct
-        type: chat
-        max_input_tokens: 327680
-        input_price: 0.08
-        output_price: 0.3
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen2.5-vl-32b-instruct
-        type: chat
-        max_input_tokens: 16384
-        input_price: 0.049999999999999996
-        output_price: 0.22
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: false
-      - name: deepseek/deepseek-chat-v3-0324
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.19999999999999998
-        output_price: 0.88
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/o1-pro
-        type: chat
-        max_input_tokens: 200000
-        input_price: 150
-        output_price: 600
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: false
-      - name: mistralai/mistral-small-3.1-24b-instruct-2503
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/mistral-small-3.1-24b-instruct-2503
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.03
-        output_price: 0.11
-        max_output_tokens: 131072
-        supports_vision: true
-        supports_function_calling: true
-      - name: allenai/olmo-2-0325-32b-instruct
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.049999999999999996
-        output_price: 0.19999999999999998
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: google/gemma-3-4b-it
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 8192
-        supports_vision: true
-        supports_function_calling: false
-      - name: google/gemma-3-4b-it
-        type: chat
-        max_input_tokens: 96000
-        input_price: 0.01703012
-        output_price: 0.0681536
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: false
-      - name: google/gemma-3-12b-it
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 8192
-        supports_vision: true
-        supports_function_calling: false
-      - name: google/gemma-3-12b-it
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.03
-        output_price: 0.09999999999999999
-        max_output_tokens: 131072
-        supports_vision: true
-        supports_function_calling: false
-      - name: cohere/command-a-03-2025
-        type: chat
-        max_input_tokens: 256000
-        input_price: 2.5
-        output_price: 10
-        max_output_tokens: 8192
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-4o-mini-search-preview-2025-03-11
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.15
-        output_price: 0.6
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-4o-search-preview-2025-03-11
-        type: chat
-        max_input_tokens: 128000
-        input_price: 2.5
-        output_price: 10
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: false
-      - name: google/gemma-3-27b-it
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: google/gemma-3-27b-it
-        type: chat
-        max_input_tokens: 96000
-        input_price: 0.04
-        output_price: 0.15
-        max_output_tokens: 96000
-        supports_vision: true
-        supports_function_calling: true
-      - name: thedrummer/skyfall-36b-v2
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.55
-        output_price: 0.7999999999999999
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: false
-      - name: microsoft/phi-4-multimodal-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.049999999999999996
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: false
-      - name: perplexity/sonar-reasoning-pro
-        type: chat
-        max_input_tokens: 128000
-        input_price: 2
-        output_price: 8
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: false
-      - name: perplexity/sonar-pro
-        type: chat
-        max_input_tokens: 200000
-        input_price: 3
-        output_price: 15
-        max_output_tokens: 8000
-        supports_vision: true
-        supports_function_calling: false
-      - name: perplexity/sonar-deep-research
-        type: chat
-        max_input_tokens: 128000
-        input_price: 2
-        output_price: 8
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: qwen/qwq-32b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.15
-        output_price: 0.39999999999999997
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: google/gemini-2.0-flash-lite-001
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 0.075
-        output_price: 0.3
-        max_output_tokens: 8192
-        supports_vision: true
-        supports_function_calling: true
-      - name: anthropic/claude-3-7-sonnet-20250219
-        type: chat
-        max_input_tokens: 200000
-        input_price: 3
-        output_price: 15
-        max_output_tokens: 64000
-        supports_vision: true
-        supports_function_calling: true
-      - name: anthropic/claude-3-7-sonnet-20250219
-        type: chat
-        max_input_tokens: 200000
-        input_price: 3
-        output_price: 15
-        max_output_tokens: 64000
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/mistral-saba-2502
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.19999999999999998
-        output_price: 0.6
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: meta-llama/llama-guard-3-8b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.02
-        output_price: 0.06
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/o3-mini-high-2025-01-31
-        type: chat
-        max_input_tokens: 200000
-        input_price: 1.1
-        output_price: 4.4
-        max_output_tokens: 100000
-        supports_vision: false
-        supports_function_calling: true
-      - name: google/gemini-2.0-flash-001
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 0.09999999999999999
-        output_price: 0.39999999999999997
-        max_output_tokens: 8192
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen-vl-plus
-        type: chat
-        max_input_tokens: 7500
-        input_price: 0.21
-        output_price: 0.63
-        max_output_tokens: 1500
-        supports_vision: true
-        supports_function_calling: false
-      - name: aion-labs/aion-1.0
-        type: chat
-        max_input_tokens: 131072
-        input_price: 4
-        output_price: 8
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: false
-      - name: aion-labs/aion-1.0-mini
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.7
-        output_price: 1.4
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: false
-      - name: aion-labs/aion-rp-llama-3.1-8b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.7999999999999999
-        output_price: 1.5999999999999999
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: false
-      - name: qwen/qwen-vl-max-2025-01-25
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.7999999999999999
-        output_price: 3.1999999999999997
-        max_output_tokens: 8192
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen-turbo-2024-11-01
-        type: chat
-        max_input_tokens: 1000000
-        input_price: 0.049999999999999996
-        output_price: 0.19999999999999998
-        max_output_tokens: 8192
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen2.5-vl-72b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.07
-        output_price: 0.26
-        max_output_tokens: 32768
-        supports_vision: true
-        supports_function_calling: false
-      - name: qwen/qwen-plus-2025-01-25
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.39999999999999997
-        output_price: 1.2
-        max_output_tokens: 8192
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen-max-2025-01-25
-        type: chat
-        max_input_tokens: 32768
-        input_price: 1.5999999999999999
-        output_price: 6.3999999999999995
-        max_output_tokens: 8192
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/o3-mini-2025-01-31
-        type: chat
-        max_input_tokens: 200000
-        input_price: 1.1
-        output_price: 4.4
-        max_output_tokens: 100000
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-small-24b-instruct-2501
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.03
-        output_price: 0.11
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: true
-      - name: deepseek/deepseek-r1-distill-qwen-32b
-        type: chat
-        max_input_tokens: 64000
-        input_price: 0.24
-        output_price: 0.24
-        max_output_tokens: 32000
-        supports_vision: false
-        supports_function_calling: false
-      - name: deepseek/deepseek-r1-distill-qwen-14b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.12
-        output_price: 0.12
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: false
-      - name: perplexity/sonar-reasoning
-        type: chat
-        max_input_tokens: 127000
-        input_price: 1
-        output_price: 5
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: perplexity/sonar
-        type: chat
-        max_input_tokens: 127072
-        input_price: 1
-        output_price: 1
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: false
-      - name: deepseek/deepseek-r1-distill-llama-70b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.03
-        output_price: 0.11
-        max_output_tokens: 131072
-        supports_vision: false
-        supports_function_calling: true
-      - name: deepseek/deepseek-r1
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.3
-        output_price: 1.2
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: minimax/minimax-01
-        type: chat
-        max_input_tokens: 1000192
-        input_price: 0.19999999999999998
-        output_price: 1.1
-        max_output_tokens: 1000192
-        supports_vision: true
-        supports_function_calling: false
-      - name: microsoft/phi-4
-        type: chat
-        max_input_tokens: 16384
-        input_price: 0.06
-        output_price: 0.14
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: sao10k/l3.1-70b-hanami-x1
-        type: chat
-        max_input_tokens: 16000
-        input_price: 3
-        output_price: 3
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: deepseek/deepseek-chat-v3
-        type: chat
-        max_input_tokens: 163840
-        input_price: 0.3
-        output_price: 1.2
-        max_output_tokens: 163840
-        supports_vision: false
-        supports_function_calling: true
-      - name: sao10k/l3.3-euryale-70b-v2.3
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.65
-        output_price: 0.75
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/o1-2024-12-17
-        type: chat
-        max_input_tokens: 200000
-        input_price: 15
-        output_price: 60
-        max_output_tokens: 100000
-        supports_vision: true
-        supports_function_calling: true
-      - name: cohere/command-r7b-12-2024
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.0375
-        output_price: 0.15
-        max_output_tokens: 4000
-        supports_vision: false
-        supports_function_calling: false
-      - name: google/gemini-2.0-flash-exp
-        type: chat
-        max_input_tokens: 1048576
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 8192
-        supports_vision: true
-        supports_function_calling: true
-      - name: meta-llama/llama-3.3-70b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: meta-llama/llama-3.3-70b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.09999999999999999
-        output_price: 0.32
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: amazon/nova-lite-v1
-        type: chat
-        max_input_tokens: 300000
-        input_price: 0.06
-        output_price: 0.24
-        max_output_tokens: 5120
-        supports_vision: true
-        supports_function_calling: true
-      - name: amazon/nova-micro-v1
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.035
-        output_price: 0.14
-        max_output_tokens: 5120
-        supports_vision: false
-        supports_function_calling: true
-      - name: amazon/nova-pro-v1
-        type: chat
-        max_input_tokens: 300000
-        input_price: 0.7999999999999999
-        output_price: 3.1999999999999997
-        max_output_tokens: 5120
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-4o-2024-11-20
-        type: chat
-        max_input_tokens: 128000
-        input_price: 2.5
-        output_price: 10
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/mistral-large-2411
-        type: chat
-        max_input_tokens: 131072
-        input_price: 2
-        output_price: 6
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-large-2407
-        type: chat
-        max_input_tokens: 131072
-        input_price: 2
-        output_price: 6
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/pixtral-large-2411
-        type: chat
-        max_input_tokens: 131072
-        input_price: 2
-        output_price: 6
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: qwen/qwen-2.5-coder-32b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.03
-        output_price: 0.11
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: false
-      - name: raifle/sorcererlm-8x22b
-        type: chat
-        max_input_tokens: 16000
-        input_price: 4.5
-        output_price: 4.5
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: thedrummer/unslopnemo-12b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.39999999999999997
-        output_price: 0.39999999999999997
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: anthropic/claude-3-5-haiku-20241022
-        type: chat
-        max_input_tokens: 200000
-        input_price: 0.7999999999999999
-        output_price: 4
-        max_output_tokens: 8192
-        supports_vision: true
-        supports_function_calling: true
-      - name: anthropic/claude-3-5-haiku
-        type: chat
-        max_input_tokens: 200000
-        input_price: 0.7999999999999999
-        output_price: 4
-        max_output_tokens: 8192
-        supports_vision: true
-        supports_function_calling: true
-      - name: anthracite-org/magnum-v4-72b
-        type: chat
-        max_input_tokens: 16384
-        input_price: 3
-        output_price: 5
-        max_output_tokens: 2048
-        supports_vision: false
-        supports_function_calling: false
-      - name: anthropic/claude-3.5-sonnet
-        type: chat
-        max_input_tokens: 200000
-        input_price: 6
-        output_price: 30
-        max_output_tokens: 8192
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/ministral-8b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.09999999999999999
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/ministral-3b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.04
-        output_price: 0.04
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen-2.5-7b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.04
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: nvidia/llama-3.1-nemotron-70b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 1.2
-        output_price: 1.2
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: inflection/inflection-3-pi
-        type: chat
-        max_input_tokens: 8000
-        input_price: 2.5
-        output_price: 10
-        max_output_tokens: 1024
-        supports_vision: false
-        supports_function_calling: false
-      - name: inflection/inflection-3-productivity
-        type: chat
-        max_input_tokens: 8000
-        input_price: 2.5
-        output_price: 10
-        max_output_tokens: 1024
-        supports_vision: false
-        supports_function_calling: false
-      - name: thedrummer/rocinante-12b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.16999999999999998
-        output_price: 0.43
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: meta-llama/llama-3.2-3b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: meta-llama/llama-3.2-3b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.02
-        output_price: 0.02
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: meta-llama/llama-3.2-1b-instruct
-        type: chat
-        max_input_tokens: 60000
-        input_price: 0.027
-        output_price: 0.19999999999999998
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: meta-llama/llama-3.2-90b-vision-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.35
-        output_price: 0.39999999999999997
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: false
-      - name: meta-llama/llama-3.2-11b-vision-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.049
-        output_price: 0.049
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: false
-      - name: qwen/qwen-2.5-72b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.12
-        output_price: 0.39
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: neversleep/llama-3.1-lumimaid-8b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.09
-        output_price: 0.6
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: mistralai/pixtral-12b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.09999999999999999
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: true
-      - name: cohere/command-r-08-2024
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.15
-        output_price: 0.6
-        max_output_tokens: 4000
-        supports_vision: false
-        supports_function_calling: true
-      - name: cohere/command-r-plus-08-2024
-        type: chat
-        max_input_tokens: 128000
-        input_price: 2.5
-        output_price: 10
-        max_output_tokens: 4000
-        supports_vision: false
-        supports_function_calling: true
-      - name: sao10k/l3.1-euryale-70b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.65
-        output_price: 0.75
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: qwen/qwen-2-vl-7b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: false
-      - name: qwen/qwen-2-vl-7b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.19999999999999998
-        output_price: 0.19999999999999998
-        max_output_tokens: 0
-        supports_vision: true
-        supports_function_calling: false
-      - name: microsoft/phi-3.5-mini-128k-instruct
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.09999999999999999
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: nousresearch/hermes-3-llama-3.1-70b
-        type: chat
-        max_input_tokens: 65536
-        input_price: 0.3
-        output_price: 0.3
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: nousresearch/hermes-3-llama-3.1-405b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: nousresearch/hermes-3-llama-3.1-405b
-        type: chat
-        max_input_tokens: 131072
-        input_price: 1
-        output_price: 1
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/chatgpt-4o-latest
-        type: chat
-        max_input_tokens: 128000
-        input_price: 5
-        output_price: 15
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: false
-      - name: sao10k/l3-lunaris-8b
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0.04
-        output_price: 0.049999999999999996
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-4o-2024-08-06
-        type: chat
-        max_input_tokens: 128000
-        input_price: 2.5
-        output_price: 10
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: meta-llama/llama-3.1-405b
-        type: chat
-        max_input_tokens: 32768
-        input_price: 4
-        output_price: 4
-        max_output_tokens: 32768
-        supports_vision: false
-        supports_function_calling: false
-      - name: meta-llama/llama-3.1-8b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.02
-        output_price: 0.03
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: meta-llama/llama-3.1-405b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: meta-llama/llama-3.1-405b-instruct
-        type: chat
-        max_input_tokens: 130815
-        input_price: 3.5
-        output_price: 3.5
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: meta-llama/llama-3.1-70b-instruct
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.39999999999999997
-        output_price: 0.39999999999999997
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-nemo
-        type: chat
-        max_input_tokens: 131072
-        input_price: 0.02
-        output_price: 0.04
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-4o-mini-2024-07-18
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.15
-        output_price: 0.6
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-4o-mini
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.15
-        output_price: 0.6
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: google/gemma-2-27b-it
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0.65
-        output_price: 0.65
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: google/gemma-2-9b-it
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0.03
-        output_price: 0.09
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: sao10k/l3-euryale-70b
-        type: chat
-        max_input_tokens: 8192
-        input_price: 1.48
-        output_price: 1.48
-        max_output_tokens: 8192
-        supports_vision: false
-        supports_function_calling: true
-      - name: nousresearch/hermes-2-pro-llama-3-8b
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0.024999999999999998
-        output_price: 0.08
-        max_output_tokens: 2048
-        supports_vision: false
-        supports_function_calling: false
-      - name: mistralai/mistral-7b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0
-        output_price: 0
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-7b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.028
-        output_price: 0.054
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-7b-instruct-v0.3
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.19999999999999998
-        output_price: 0.19999999999999998
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: false
-      - name: microsoft/phi-3-mini-128k-instruct
-        type: chat
-        max_input_tokens: 128000
-        input_price: 0.09999999999999999
-        output_price: 0.09999999999999999
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: microsoft/phi-3-medium-128k-instruct
-        type: chat
-        max_input_tokens: 128000
-        input_price: 1
-        output_price: 1
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: meta-llama/llama-guard-2-8b
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0.19999999999999998
-        output_price: 0.19999999999999998
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-4o-2024-05-13
-        type: chat
-        max_input_tokens: 128000
-        input_price: 5
-        output_price: 15
-        max_output_tokens: 4096
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-4o
-        type: chat
-        max_input_tokens: 128000
-        input_price: 2.5
-        output_price: 10
-        max_output_tokens: 16384
-        supports_vision: true
-        supports_function_calling: true
-      - name: openai/gpt-4o
-        type: chat
-        max_input_tokens: 128000
-        input_price: 6
-        output_price: 18
-        max_output_tokens: 64000
-        supports_vision: true
-        supports_function_calling: true
-      - name: meta-llama/llama-3-70b-instruct
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0.3
-        output_price: 0.39999999999999997
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: meta-llama/llama-3-8b-instruct
-        type: chat
-        max_input_tokens: 8192
-        input_price: 0.03
-        output_price: 0.06
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mixtral-8x22b-instruct
-        type: chat
-        max_input_tokens: 65536
-        input_price: 2
-        output_price: 6
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: microsoft/wizardlm-2-8x22b
-        type: chat
-        max_input_tokens: 65536
-        input_price: 0.48
-        output_price: 0.48
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-4-turbo
-        type: chat
-        max_input_tokens: 128000
-        input_price: 10
-        output_price: 30
-        max_output_tokens: 4096
-        supports_vision: true
-        supports_function_calling: true
-      - name: anthropic/claude-3-haiku
-        type: chat
-        max_input_tokens: 200000
-        input_price: 0.25
-        output_price: 1.25
-        max_output_tokens: 4096
-        supports_vision: true
-        supports_function_calling: true
-      - name: anthropic/claude-3-opus
-        type: chat
-        max_input_tokens: 200000
-        input_price: 15
-        output_price: 75
-        max_output_tokens: 4096
-        supports_vision: true
-        supports_function_calling: true
-      - name: mistralai/mistral-large
-        type: chat
-        max_input_tokens: 128000
-        input_price: 2
-        output_price: 6
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-3.5-turbo-0613
-        type: chat
-        max_input_tokens: 4095
-        input_price: 1
-        output_price: 2
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-4-turbo-preview
-        type: chat
-        max_input_tokens: 128000
-        input_price: 10
-        output_price: 30
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-tiny
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.25
-        output_price: 0.25
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: true
-      - name: mistralai/mistral-7b-instruct-v0.2
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.19999999999999998
-        output_price: 0.19999999999999998
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: mistralai/mixtral-8x7b-instruct
-        type: chat
-        max_input_tokens: 32768
-        input_price: 0.54
-        output_price: 0.54
-        max_output_tokens: 16384
-        supports_vision: false
-        supports_function_calling: true
-      - name: neversleep/noromaid-20b
-        type: chat
-        max_input_tokens: 4096
-        input_price: 1
-        output_price: 1.75
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: alpindale/goliath-120b
-        type: chat
-        max_input_tokens: 6144
-        input_price: 6
-        output_price: 8
-        max_output_tokens: 1024
-        supports_vision: false
-        supports_function_calling: false
-      - name: openrouter/auto
-        type: chat
-        max_input_tokens: 2000000
-        input_price: -1e+06
-        output_price: -1e+06
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-4-1106-preview
-        type: chat
-        max_input_tokens: 128000
-        input_price: 10
-        output_price: 30
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-3.5-turbo-instruct
-        type: chat
-        max_input_tokens: 4095
-        input_price: 1.5
-        output_price: 2
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: false
-      - name: mistralai/mistral-7b-instruct-v0.1
-        type: chat
-        max_input_tokens: 2824
-        input_price: 0.11
-        output_price: 0.19
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-3.5-turbo-16k
-        type: chat
-        max_input_tokens: 16385
-        input_price: 3
-        output_price: 4
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: true
-      - name: mancer/weaver
-        type: chat
-        max_input_tokens: 8000
-        input_price: 0.75
-        output_price: 1
-        max_output_tokens: 2000
-        supports_vision: false
-        supports_function_calling: false
-      - name: undi95/remm-slerp-l2-13b
-        type: chat
-        max_input_tokens: 6144
-        input_price: 0.44999999999999996
-        output_price: 0.65
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: gryphe/mythomax-l2-13b
-        type: chat
-        max_input_tokens: 4096
-        input_price: 0.06
-        output_price: 0.06
-        max_output_tokens: 0
-        supports_vision: false
-        supports_function_calling: false
-      - name: openai/gpt-4-0314
-        type: chat
-        max_input_tokens: 8191
-        input_price: 30
-        output_price: 60
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-4
-        type: chat
-        max_input_tokens: 8191
-        input_price: 30
-        output_price: 60
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: true
-      - name: openai/gpt-3.5-turbo
-        type: chat
-        max_input_tokens: 16385
-        input_price: 0.5
-        output_price: 1.5
-        max_output_tokens: 4096
-        supports_vision: false
-        supports_function_calling: true
+- provider: openrouter
+  models:
+    - name: minimax/minimax-m2.1
+      type: chat
+      max_input_tokens: 204800
+      input_price: 0.3
+      output_price: 1.2
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: z-ai/glm-4.7-20251222
+      type: chat
+      max_input_tokens: 202752
+      input_price: 0.39999999999999997
+      output_price: 1.5
+      max_output_tokens: 65535
+      supports_vision: false
+      supports_function_calling: true
+    - name: google/gemini-3-flash-preview-20251217
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 0.5
+      output_price: 3
+      max_output_tokens: 65535
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/mistral-small-creative-20251216
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.09999999999999999
+      output_price: 0.3
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: allenai/olmo-3.1-32b-think-20251215
+      type: chat
+      max_input_tokens: 65536
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: false
+    - name: xiaomi/mimo-v2-flash-20251210
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: nvidia/nemotron-3-nano-30b-a3b
+      type: chat
+      max_input_tokens: 256000
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: nvidia/nemotron-3-nano-30b-a3b
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.06
+      output_price: 0.24
+      max_output_tokens: 262144
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-5.2-chat-20251211
+      type: chat
+      max_input_tokens: 128000
+      input_price: 1.75
+      output_price: 14
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-5.2-pro-20251211
+      type: chat
+      max_input_tokens: 400000
+      input_price: 21
+      output_price: 168
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-5.2-20251211
+      type: chat
+      max_input_tokens: 400000
+      input_price: 1.75
+      output_price: 14
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/devstral-2512
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/devstral-2512
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.049999999999999996
+      output_price: 0.22
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: relace/relace-search-20251208
+      type: chat
+      max_input_tokens: 256000
+      input_price: 1
+      output_price: 3
+      max_output_tokens: 128000
+      supports_vision: false
+      supports_function_calling: true
+    - name: z-ai/glm-4.6-20251208
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.3
+      output_price: 0.8999999999999999
+      max_output_tokens: 24000
+      supports_vision: true
+      supports_function_calling: true
+    - name: nex-agi/deepseek-v3.1-nex-n1
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 163840
+      supports_vision: false
+      supports_function_calling: true
+    - name: essentialai/rnj-1-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.15
+      output_price: 0.15
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openrouter/bodybuilder
+      type: chat
+      max_input_tokens: 128000
+      input_price: -1e+06
+      output_price: -1e+06
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-5.1-codex-max-20251204
+      type: chat
+      max_input_tokens: 400000
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: amazon/nova-2-lite-v1
+      type: chat
+      max_input_tokens: 1000000
+      input_price: 0.3
+      output_price: 2.5
+      max_output_tokens: 65535
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/ministral-14b-2512
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/ministral-8b-2512
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.15
+      output_price: 0.15
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/ministral-3b-2512
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/mistral-large-2512
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.5
+      output_price: 1.5
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: arcee-ai/trinity-mini-20251201
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: arcee-ai/trinity-mini-20251201
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.045
+      output_price: 0.15
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: deepseek/deepseek-v3.2-speciale-20251201
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.27
+      output_price: 0.41
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: false
+    - name: deepseek/deepseek-v3.2-20251201
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.26
+      output_price: 0.38
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: prime-intellect/intellect-3-20251126
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.19999999999999998
+      output_price: 1.1
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: tngtech/tng-r1t-chimera
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 163840
+      supports_vision: false
+      supports_function_calling: true
+    - name: tngtech/tng-r1t-chimera
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.3
+      output_price: 1.2
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: anthropic/claude-4.5-opus-20251124
+      type: chat
+      max_input_tokens: 200000
+      input_price: 5
+      output_price: 25
+      max_output_tokens: 32000
+      supports_vision: true
+      supports_function_calling: true
+    - name: allenai/olmo-3-32b-think-20251121
+      type: chat
+      max_input_tokens: 65536
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: false
+    - name: allenai/olmo-3-7b-instruct-20251121
+      type: chat
+      max_input_tokens: 65536
+      input_price: 0.09999999999999999
+      output_price: 0.19999999999999998
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: allenai/olmo-3-7b-think-20251121
+      type: chat
+      max_input_tokens: 65536
+      input_price: 0.12
+      output_price: 0.19999999999999998
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: false
+    - name: google/gemini-3-pro-image-preview-20251120
+      type: chat
+      max_input_tokens: 65536
+      input_price: 2
+      output_price: 12
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: false
+    - name: x-ai/grok-4.1-fast
+      type: chat
+      max_input_tokens: 2000000
+      input_price: 0.19999999999999998
+      output_price: 0.5
+      max_output_tokens: 30000
+      supports_vision: true
+      supports_function_calling: true
+    - name: google/gemini-3-pro-preview-20251117
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 2
+      output_price: 12
+      max_output_tokens: 65536
+      supports_vision: true
+      supports_function_calling: true
+    - name: deepcogito/cogito-v2.1-671b-20251118
+      type: chat
+      max_input_tokens: 128000
+      input_price: 1.25
+      output_price: 1.25
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-5.1-20251113
+      type: chat
+      max_input_tokens: 400000
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-5.1-chat-20251113
+      type: chat
+      max_input_tokens: 128000
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-5.1-codex-20251113
+      type: chat
+      max_input_tokens: 400000
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-5.1-codex-mini-20251113
+      type: chat
+      max_input_tokens: 400000
+      input_price: 0.25
+      output_price: 2
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: true
+    - name: kwaipilot/kat-coder-pro-v1
+      type: chat
+      max_input_tokens: 256000
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: true
+    - name: moonshotai/kimi-k2-thinking-20251106
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.39999999999999997
+      output_price: 1.75
+      max_output_tokens: 65535
+      supports_vision: false
+      supports_function_calling: true
+    - name: amazon/nova-premier-v1
+      type: chat
+      max_input_tokens: 1000000
+      input_price: 2.5
+      output_price: 12.5
+      max_output_tokens: 32000
+      supports_vision: true
+      supports_function_calling: true
+    - name: perplexity/sonar-pro-search
+      type: chat
+      max_input_tokens: 200000
+      input_price: 3
+      output_price: 15
+      max_output_tokens: 8000
+      supports_vision: true
+      supports_function_calling: false
+    - name: mistralai/voxtral-small-24b-2507
+      type: chat
+      max_input_tokens: 32000
+      input_price: 0.09999999999999999
+      output_price: 0.3
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-oss-safeguard-20b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.075
+      output_price: 0.3
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: nvidia/nemotron-nano-12b-v2-vl
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: nvidia/nemotron-nano-12b-v2-vl
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.19999999999999998
+      output_price: 0.6
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: false
+    - name: minimax/minimax-m2
+      type: chat
+      max_input_tokens: 196608
+      input_price: 0.19999999999999998
+      output_price: 1
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-vl-32b-instruct
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.5
+      output_price: 1.5
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: false
+    - name: liquid/lfm2-8b-a1b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.049999999999999996
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: liquid/lfm-2.2-6b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.049999999999999996
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: ibm-granite/granite-4.0-h-micro
+      type: chat
+      max_input_tokens: 131000
+      input_price: 0.017
+      output_price: 0.11
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: deepcogito/cogito-v2-preview-llama-405b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 3.5
+      output_price: 3.5
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-5-image-mini
+      type: chat
+      max_input_tokens: 400000
+      input_price: 2.5
+      output_price: 2
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: anthropic/claude-4.5-haiku-20251001
+      type: chat
+      max_input_tokens: 200000
+      input_price: 1
+      output_price: 5
+      max_output_tokens: 64000
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen3-vl-8b-thinking
+      type: chat
+      max_input_tokens: 256000
+      input_price: 0.18
+      output_price: 2.0999999999999996
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen3-vl-8b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.064
+      output_price: 0.39999999999999997
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-5-image
+      type: chat
+      max_input_tokens: 400000
+      input_price: 10
+      output_price: 10
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/o3-deep-research-2025-06-26
+      type: chat
+      max_input_tokens: 200000
+      input_price: 10
+      output_price: 40
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/o4-mini-deep-research-2025-06-26
+      type: chat
+      max_input_tokens: 200000
+      input_price: 2
+      output_price: 8
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: true
+    - name: nvidia/llama-3.3-nemotron-super-49b-v1.5
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: baidu/ernie-4.5-21b-a3b-thinking
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.056
+      output_price: 0.224
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: false
+    - name: google/gemini-2.5-flash-image
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.3
+      output_price: 2.5
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: false
+    - name: qwen/qwen3-vl-30b-a3b-thinking
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.16
+      output_price: 0.7999999999999999
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen3-vl-30b-a3b-instruct
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.15
+      output_price: 0.6
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-5-pro-2025-10-06
+      type: chat
+      max_input_tokens: 400000
+      input_price: 15
+      output_price: 120
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: z-ai/glm-4.6
+      type: chat
+      max_input_tokens: 204800
+      input_price: 0.39
+      output_price: 1.9
+      max_output_tokens: 204800
+      supports_vision: false
+      supports_function_calling: true
+    - name: z-ai/glm-4.6
+      type: chat
+      max_input_tokens: 204800
+      input_price: 0.44
+      output_price: 1.76
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: anthropic/claude-4.5-sonnet-20250929
+      type: chat
+      max_input_tokens: 1000000
+      input_price: 3
+      output_price: 15
+      max_output_tokens: 64000
+      supports_vision: true
+      supports_function_calling: true
+    - name: deepseek/deepseek-v3.2-exp
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.21
+      output_price: 0.32
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: thedrummer/cydonia-24b-v4.1
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.3
+      output_price: 0.5
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: false
+    - name: relace/relace-apply-3
+      type: chat
+      max_input_tokens: 256000
+      input_price: 0.85
+      output_price: 1.25
+      max_output_tokens: 128000
+      supports_vision: false
+      supports_function_calling: false
+    - name: google/gemini-2.5-flash-preview-09-2025
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 0.3
+      output_price: 2.5
+      max_output_tokens: 65536
+      supports_vision: true
+      supports_function_calling: true
+    - name: google/gemini-2.5-flash-lite-preview-09-2025
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
+      max_output_tokens: 65536
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen3-vl-235b-a22b-thinking
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.3
+      output_price: 1.2
+      max_output_tokens: 262144
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen3-vl-235b-a22b-instruct
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.19999999999999998
+      output_price: 1.2
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen3-max
+      type: chat
+      max_input_tokens: 256000
+      input_price: 1.2
+      output_price: 6
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-coder-plus
+      type: chat
+      max_input_tokens: 128000
+      input_price: 1
+      output_price: 5
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-5-codex
+      type: chat
+      max_input_tokens: 400000
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: deepseek/deepseek-v3.1-terminus
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.21
+      output_price: 0.7899999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: deepseek/deepseek-v3.1-terminus
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.21
+      output_price: 0.7899999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: x-ai/grok-4-fast
+      type: chat
+      max_input_tokens: 2000000
+      input_price: 0.19999999999999998
+      output_price: 0.5
+      max_output_tokens: 30000
+      supports_vision: true
+      supports_function_calling: true
+    - name: alibaba/tongyi-deepresearch-30b-a3b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: alibaba/tongyi-deepresearch-30b-a3b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.09
+      output_price: 0.39999999999999997
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-coder-flash
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.3
+      output_price: 1.5
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: opengvlab/internvl3-78b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.09999999999999999
+      output_price: 0.39
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: false
+    - name: qwen/qwen3-next-80b-a3b-thinking-2509
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.12
+      output_price: 1.2
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-next-80b-a3b-instruct-2509
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.09
+      output_price: 1.1
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: meituan/longcat-flash-chat
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.19999999999999998
+      output_price: 0.7999999999999999
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: false
+    - name: qwen/qwen-plus-2025-07-28
+      type: chat
+      max_input_tokens: 1000000
+      input_price: 0.39999999999999997
+      output_price: 1.2
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen-plus-2025-07-28
+      type: chat
+      max_input_tokens: 1000000
+      input_price: 0.39999999999999997
+      output_price: 4
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: true
+    - name: nvidia/nemotron-nano-9b-v2
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: nvidia/nemotron-nano-9b-v2
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.04
+      output_price: 0.16
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: moonshotai/kimi-k2-0905
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.39
+      output_price: 1.9
+      max_output_tokens: 262144
+      supports_vision: false
+      supports_function_calling: true
+    - name: moonshotai/kimi-k2-0905
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.6
+      output_price: 2.5
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: deepcogito/cogito-v2-preview-llama-70b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.88
+      output_price: 0.88
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: deepcogito/cogito-v2-preview-llama-109b-moe
+      type: chat
+      max_input_tokens: 32767
+      input_price: 0.18
+      output_price: 0.59
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: stepfun-ai/step3
+      type: chat
+      max_input_tokens: 65536
+      input_price: 0.5700000000000001
+      output_price: 1.42
+      max_output_tokens: 65536
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen3-30b-a3b-thinking-2507
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.051
+      output_price: 0.33999999999999997
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: x-ai/grok-code-fast-1
+      type: chat
+      max_input_tokens: 256000
+      input_price: 0.19999999999999998
+      output_price: 1.5
+      max_output_tokens: 10000
+      supports_vision: false
+      supports_function_calling: true
+    - name: nousresearch/hermes-4-70b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.11
+      output_price: 0.38
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: nousresearch/hermes-4-405b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.3
+      output_price: 1.2
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: google/gemini-2.5-flash-image-preview
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.3
+      output_price: 2.5
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: false
+    - name: deepseek/deepseek-chat-v3.1
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0.15
+      output_price: 0.75
+      max_output_tokens: 7168
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-4o-audio-preview
+      type: chat
+      max_input_tokens: 128000
+      input_price: 2.5
+      output_price: 10
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-medium-3.1
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.39999999999999997
+      output_price: 2
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: baidu/ernie-4.5-21b-a3b
+      type: chat
+      max_input_tokens: 120000
+      input_price: 0.056
+      output_price: 0.224
+      max_output_tokens: 8000
+      supports_vision: false
+      supports_function_calling: true
+    - name: baidu/ernie-4.5-vl-28b-a3b
+      type: chat
+      max_input_tokens: 30000
+      input_price: 0.112
+      output_price: 0.448
+      max_output_tokens: 8000
+      supports_vision: true
+      supports_function_calling: true
+    - name: z-ai/glm-4.5v
+      type: chat
+      max_input_tokens: 65536
+      input_price: 0.48
+      output_price: 1.44
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: ai21/jamba-mini-1.7
+      type: chat
+      max_input_tokens: 256000
+      input_price: 0.19999999999999998
+      output_price: 0.39999999999999997
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: true
+    - name: ai21/jamba-large-1.7
+      type: chat
+      max_input_tokens: 256000
+      input_price: 2
+      output_price: 8
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-5-chat-2025-08-07
+      type: chat
+      max_input_tokens: 128000
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: false
+    - name: openai/gpt-5-2025-08-07
+      type: chat
+      max_input_tokens: 400000
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-5-mini-2025-08-07
+      type: chat
+      max_input_tokens: 400000
+      input_price: 0.25
+      output_price: 2
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-5-nano-2025-08-07
+      type: chat
+      max_input_tokens: 400000
+      input_price: 0.049999999999999996
+      output_price: 0.39999999999999997
+      max_output_tokens: 128000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-oss-120b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-oss-120b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.039
+      output_price: 0.19
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-oss-120b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.039
+      output_price: 0.19
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-oss-20b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 128000
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-oss-20b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.03
+      output_price: 0.14
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: anthropic/claude-4.1-opus-20250805
+      type: chat
+      max_input_tokens: 200000
+      input_price: 15
+      output_price: 75
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/codestral-2508
+      type: chat
+      max_input_tokens: 256000
+      input_price: 0.3
+      output_price: 0.8999999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-coder-30b-a3b-instruct
+      type: chat
+      max_input_tokens: 160000
+      input_price: 0.07
+      output_price: 0.27
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-30b-a3b-instruct-2507
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.08
+      output_price: 0.33
+      max_output_tokens: 262144
+      supports_vision: false
+      supports_function_calling: true
+    - name: z-ai/glm-4.5
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.35
+      output_price: 1.55
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: z-ai/glm-4.5-air
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: z-ai/glm-4.5-air
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.10400000000000001
+      output_price: 0.6799999999999999
+      max_output_tokens: 98304
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-235b-a22b-thinking-2507
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.11
+      output_price: 0.6
+      max_output_tokens: 262144
+      supports_vision: false
+      supports_function_calling: true
+    - name: z-ai/glm-4-32b-0414
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-coder-480b-a35b-07-25
+      type: chat
+      max_input_tokens: 262000
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 262000
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-coder-480b-a35b-07-25
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.22
+      output_price: 0.95
+      max_output_tokens: 262144
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-coder-480b-a35b-07-25
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.22
+      output_price: 1.7999999999999998
+      max_output_tokens: 65536
+      supports_vision: false
+      supports_function_calling: true
+    - name: bytedance/ui-tars-1.5-7b
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.09999999999999999
+      output_price: 0.19999999999999998
+      max_output_tokens: 2048
+      supports_vision: true
+      supports_function_calling: false
+    - name: google/gemini-2.5-flash-lite
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
+      max_output_tokens: 65535
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen3-235b-a22b-07-25
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.071
+      output_price: 0.463
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: switchpoint/router
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.85
+      output_price: 3.4
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: moonshotai/kimi-k2
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: moonshotai/kimi-k2
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.456
+      output_price: 1.8399999999999999
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: thudm/glm-4.1v-9b-thinking
+      type: chat
+      max_input_tokens: 65536
+      input_price: 0.028
+      output_price: 0.1104
+      max_output_tokens: 8000
+      supports_vision: true
+      supports_function_calling: false
+    - name: mistralai/devstral-medium-2507
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.39999999999999997
+      output_price: 2
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/devstral-small-2507
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.07
+      output_price: 0.28
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: venice/uncensored
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: x-ai/grok-4-07-09
+      type: chat
+      max_input_tokens: 256000
+      input_price: 3
+      output_price: 15
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: google/gemma-3n-e2b-it
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 2048
+      supports_vision: false
+      supports_function_calling: false
+    - name: tencent/hunyuan-a13b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.14
+      output_price: 0.5700000000000001
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: false
+    - name: tngtech/deepseek-r1t2-chimera
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: tngtech/deepseek-r1t2-chimera
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.3
+      output_price: 1.2
+      max_output_tokens: 163840
+      supports_vision: false
+      supports_function_calling: true
+    - name: morph/morph-v3-large
+      type: chat
+      max_input_tokens: 262144
+      input_price: 0.8999999999999999
+      output_price: 1.9
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: false
+    - name: morph/morph-v3-fast
+      type: chat
+      max_input_tokens: 81920
+      input_price: 0.7999999999999999
+      output_price: 1.2
+      max_output_tokens: 38000
+      supports_vision: false
+      supports_function_calling: false
+    - name: baidu/ernie-4.5-vl-424b-a47b
+      type: chat
+      max_input_tokens: 123000
+      input_price: 0.33599999999999997
+      output_price: 1
+      max_output_tokens: 16000
+      supports_vision: true
+      supports_function_calling: false
+    - name: baidu/ernie-4.5-300b-a47b
+      type: chat
+      max_input_tokens: 123000
+      input_price: 0.224
+      output_price: 0.88
+      max_output_tokens: 12000
+      supports_vision: false
+      supports_function_calling: false
+    - name: inception/mercury
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.25
+      output_price: 1
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-small-3.2-24b-instruct-2506
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.06
+      output_price: 0.18
+      max_output_tokens: 131072
+      supports_vision: true
+      supports_function_calling: true
+    - name: minimax/minimax-m1
+      type: chat
+      max_input_tokens: 1000000
+      input_price: 0.39999999999999997
+      output_price: 2.2
+      max_output_tokens: 40000
+      supports_vision: false
+      supports_function_calling: true
+    - name: google/gemini-2.5-flash
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 0.3
+      output_price: 2.5
+      max_output_tokens: 65535
+      supports_vision: true
+      supports_function_calling: true
+    - name: google/gemini-2.5-pro
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 65536
+      supports_vision: true
+      supports_function_calling: true
+    - name: moonshotai/kimi-dev-72b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.29
+      output_price: 1.15
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/o3-pro-2025-06-10
+      type: chat
+      max_input_tokens: 200000
+      input_price: 20
+      output_price: 80
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: true
+    - name: x-ai/grok-3-mini
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.3
+      output_price: 0.5
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: x-ai/grok-3
+      type: chat
+      max_input_tokens: 131072
+      input_price: 3
+      output_price: 15
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: google/gemini-2.5-pro-preview-06-05
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 65536
+      supports_vision: true
+      supports_function_calling: true
+    - name: deepseek/deepseek-r1-0528-qwen3-8b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.02
+      output_price: 0.09999999999999999
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: false
+    - name: deepseek/deepseek-r1-0528
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: deepseek/deepseek-r1-0528
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.39999999999999997
+      output_price: 1.75
+      max_output_tokens: 163840
+      supports_vision: false
+      supports_function_calling: true
+    - name: anthropic/claude-4-opus-20250522
+      type: chat
+      max_input_tokens: 200000
+      input_price: 15
+      output_price: 75
+      max_output_tokens: 32000
+      supports_vision: true
+      supports_function_calling: true
+    - name: anthropic/claude-4-sonnet-20250522
+      type: chat
+      max_input_tokens: 1000000
+      input_price: 3
+      output_price: 15
+      max_output_tokens: 64000
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/devstral-small-2505
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.06
+      output_price: 0.12
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: google/gemma-3n-e4b-it
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 2048
+      supports_vision: false
+      supports_function_calling: false
+    - name: google/gemma-3n-e4b-it
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.02
+      output_price: 0.04
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/codex-mini
+      type: chat
+      max_input_tokens: 200000
+      input_price: 1.5
+      output_price: 6
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: true
+    - name: nousresearch/deephermes-3-mistral-24b-preview
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.02
+      output_price: 0.09999999999999999
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-medium-3
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.39999999999999997
+      output_price: 2
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: google/gemini-2.5-pro-preview-03-25
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 1.25
+      output_price: 10
+      max_output_tokens: 65535
+      supports_vision: true
+      supports_function_calling: true
+    - name: arcee-ai/spotlight
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.18
+      output_price: 0.18
+      max_output_tokens: 65537
+      supports_vision: true
+      supports_function_calling: false
+    - name: arcee-ai/maestro-reasoning
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.8999999999999999
+      output_price: 3.3000000000000003
+      max_output_tokens: 32000
+      supports_vision: false
+      supports_function_calling: false
+    - name: arcee-ai/virtuoso-large
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.75
+      output_price: 1.2
+      max_output_tokens: 64000
+      supports_vision: false
+      supports_function_calling: true
+    - name: arcee-ai/coder-large
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.5
+      output_price: 0.7999999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: microsoft/phi-4-reasoning-plus-04-30
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.07
+      output_price: 0.35
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: inception/mercury-coder-small-beta
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.25
+      output_price: 1
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-4b-04-28
+      type: chat
+      max_input_tokens: 40960
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: deepseek/deepseek-prover-v2
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.5
+      output_price: 2.1799999999999997
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: meta-llama/llama-guard-4-12b
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.18
+      output_price: 0.18
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: false
+    - name: qwen/qwen3-30b-a3b-04-28
+      type: chat
+      max_input_tokens: 40960
+      input_price: 0.06
+      output_price: 0.22
+      max_output_tokens: 40960
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-8b-04-28
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.028
+      output_price: 0.1104
+      max_output_tokens: 20000
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-14b-04-28
+      type: chat
+      max_input_tokens: 40960
+      input_price: 0.049999999999999996
+      output_price: 0.22
+      max_output_tokens: 40960
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-32b-04-28
+      type: chat
+      max_input_tokens: 40960
+      input_price: 0.08
+      output_price: 0.24
+      max_output_tokens: 40960
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen3-235b-a22b-04-28
+      type: chat
+      max_input_tokens: 40960
+      input_price: 0.18
+      output_price: 0.54
+      max_output_tokens: 40960
+      supports_vision: false
+      supports_function_calling: true
+    - name: tngtech/deepseek-r1t-chimera
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: tngtech/deepseek-r1t-chimera
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.3
+      output_price: 1.2
+      max_output_tokens: 163840
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/o4-mini-high-2025-04-16
+      type: chat
+      max_input_tokens: 200000
+      input_price: 1.1
+      output_price: 4.4
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/o3-2025-04-16
+      type: chat
+      max_input_tokens: 200000
+      input_price: 2
+      output_price: 8
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/o4-mini-2025-04-16
+      type: chat
+      max_input_tokens: 200000
+      input_price: 1.1
+      output_price: 4.4
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen2.5-coder-7b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.03
+      output_price: 0.09
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-4.1-2025-04-14
+      type: chat
+      max_input_tokens: 1047576
+      input_price: 2
+      output_price: 8
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-4.1-mini-2025-04-14
+      type: chat
+      max_input_tokens: 1047576
+      input_price: 0.39999999999999997
+      output_price: 1.5999999999999999
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-4.1-nano-2025-04-14
+      type: chat
+      max_input_tokens: 1047576
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: true
+    - name: eleutherai/llemma_7b
+      type: chat
+      max_input_tokens: 4096
+      input_price: 0.7999999999999999
+      output_price: 1.2
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: false
+    - name: alfredpros/codellama-7b-instruct-solidity
+      type: chat
+      max_input_tokens: 4096
+      input_price: 0.7999999999999999
+      output_price: 1.2
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: false
+    - name: arliai/qwq-32b-arliai-rpr-v1
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.03
+      output_price: 0.11
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: false
+    - name: x-ai/grok-3-mini-beta
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.3
+      output_price: 0.5
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: x-ai/grok-3-beta
+      type: chat
+      max_input_tokens: 131072
+      input_price: 3
+      output_price: 15
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: nvidia/llama-3.1-nemotron-ultra-253b-v1
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.6
+      output_price: 1.7999999999999998
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: meta-llama/llama-4-maverick-17b-128e-instruct
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 0.15
+      output_price: 0.6
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: meta-llama/llama-4-scout-17b-16e-instruct
+      type: chat
+      max_input_tokens: 327680
+      input_price: 0.08
+      output_price: 0.3
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen2.5-vl-32b-instruct
+      type: chat
+      max_input_tokens: 16384
+      input_price: 0.049999999999999996
+      output_price: 0.22
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: false
+    - name: deepseek/deepseek-chat-v3-0324
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.19999999999999998
+      output_price: 0.88
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/o1-pro
+      type: chat
+      max_input_tokens: 200000
+      input_price: 150
+      output_price: 600
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: false
+    - name: mistralai/mistral-small-3.1-24b-instruct-2503
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/mistral-small-3.1-24b-instruct-2503
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.03
+      output_price: 0.11
+      max_output_tokens: 131072
+      supports_vision: true
+      supports_function_calling: true
+    - name: allenai/olmo-2-0325-32b-instruct
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.049999999999999996
+      output_price: 0.19999999999999998
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: google/gemma-3-4b-it
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: false
+    - name: google/gemma-3-4b-it
+      type: chat
+      max_input_tokens: 96000
+      input_price: 0.01703012
+      output_price: 0.0681536
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: false
+    - name: google/gemma-3-12b-it
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: false
+    - name: google/gemma-3-12b-it
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.03
+      output_price: 0.09999999999999999
+      max_output_tokens: 131072
+      supports_vision: true
+      supports_function_calling: false
+    - name: cohere/command-a-03-2025
+      type: chat
+      max_input_tokens: 256000
+      input_price: 2.5
+      output_price: 10
+      max_output_tokens: 8192
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-4o-mini-search-preview-2025-03-11
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.15
+      output_price: 0.6
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-4o-search-preview-2025-03-11
+      type: chat
+      max_input_tokens: 128000
+      input_price: 2.5
+      output_price: 10
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: false
+    - name: google/gemma-3-27b-it
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: google/gemma-3-27b-it
+      type: chat
+      max_input_tokens: 96000
+      input_price: 0.04
+      output_price: 0.15
+      max_output_tokens: 96000
+      supports_vision: true
+      supports_function_calling: true
+    - name: thedrummer/skyfall-36b-v2
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.55
+      output_price: 0.7999999999999999
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: false
+    - name: microsoft/phi-4-multimodal-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.049999999999999996
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: false
+    - name: perplexity/sonar-reasoning-pro
+      type: chat
+      max_input_tokens: 128000
+      input_price: 2
+      output_price: 8
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: false
+    - name: perplexity/sonar-pro
+      type: chat
+      max_input_tokens: 200000
+      input_price: 3
+      output_price: 15
+      max_output_tokens: 8000
+      supports_vision: true
+      supports_function_calling: false
+    - name: perplexity/sonar-deep-research
+      type: chat
+      max_input_tokens: 128000
+      input_price: 2
+      output_price: 8
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: qwen/qwq-32b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.15
+      output_price: 0.39999999999999997
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: google/gemini-2.0-flash-lite-001
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 0.075
+      output_price: 0.3
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: true
+    - name: anthropic/claude-3-7-sonnet-20250219
+      type: chat
+      max_input_tokens: 200000
+      input_price: 3
+      output_price: 15
+      max_output_tokens: 64000
+      supports_vision: true
+      supports_function_calling: true
+    - name: anthropic/claude-3-7-sonnet-20250219
+      type: chat
+      max_input_tokens: 200000
+      input_price: 3
+      output_price: 15
+      max_output_tokens: 64000
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/mistral-saba-2502
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.19999999999999998
+      output_price: 0.6
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: meta-llama/llama-guard-3-8b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.02
+      output_price: 0.06
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/o3-mini-high-2025-01-31
+      type: chat
+      max_input_tokens: 200000
+      input_price: 1.1
+      output_price: 4.4
+      max_output_tokens: 100000
+      supports_vision: false
+      supports_function_calling: true
+    - name: google/gemini-2.0-flash-001
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen-vl-plus
+      type: chat
+      max_input_tokens: 7500
+      input_price: 0.21
+      output_price: 0.63
+      max_output_tokens: 1500
+      supports_vision: true
+      supports_function_calling: false
+    - name: aion-labs/aion-1.0
+      type: chat
+      max_input_tokens: 131072
+      input_price: 4
+      output_price: 8
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: false
+    - name: aion-labs/aion-1.0-mini
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.7
+      output_price: 1.4
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: false
+    - name: aion-labs/aion-rp-llama-3.1-8b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.7999999999999999
+      output_price: 1.5999999999999999
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: false
+    - name: qwen/qwen-vl-max-2025-01-25
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.7999999999999999
+      output_price: 3.1999999999999997
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen-turbo-2024-11-01
+      type: chat
+      max_input_tokens: 1000000
+      input_price: 0.049999999999999996
+      output_price: 0.19999999999999998
+      max_output_tokens: 8192
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen2.5-vl-72b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.07
+      output_price: 0.26
+      max_output_tokens: 32768
+      supports_vision: true
+      supports_function_calling: false
+    - name: qwen/qwen-plus-2025-01-25
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.39999999999999997
+      output_price: 1.2
+      max_output_tokens: 8192
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen-max-2025-01-25
+      type: chat
+      max_input_tokens: 32768
+      input_price: 1.5999999999999999
+      output_price: 6.3999999999999995
+      max_output_tokens: 8192
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/o3-mini-2025-01-31
+      type: chat
+      max_input_tokens: 200000
+      input_price: 1.1
+      output_price: 4.4
+      max_output_tokens: 100000
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-small-24b-instruct-2501
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.03
+      output_price: 0.11
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: true
+    - name: deepseek/deepseek-r1-distill-qwen-32b
+      type: chat
+      max_input_tokens: 64000
+      input_price: 0.24
+      output_price: 0.24
+      max_output_tokens: 32000
+      supports_vision: false
+      supports_function_calling: false
+    - name: deepseek/deepseek-r1-distill-qwen-14b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.12
+      output_price: 0.12
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: false
+    - name: perplexity/sonar-reasoning
+      type: chat
+      max_input_tokens: 127000
+      input_price: 1
+      output_price: 5
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: perplexity/sonar
+      type: chat
+      max_input_tokens: 127072
+      input_price: 1
+      output_price: 1
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: false
+    - name: deepseek/deepseek-r1-distill-llama-70b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.03
+      output_price: 0.11
+      max_output_tokens: 131072
+      supports_vision: false
+      supports_function_calling: true
+    - name: deepseek/deepseek-r1
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.3
+      output_price: 1.2
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: minimax/minimax-01
+      type: chat
+      max_input_tokens: 1000192
+      input_price: 0.19999999999999998
+      output_price: 1.1
+      max_output_tokens: 1000192
+      supports_vision: true
+      supports_function_calling: false
+    - name: microsoft/phi-4
+      type: chat
+      max_input_tokens: 16384
+      input_price: 0.06
+      output_price: 0.14
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: sao10k/l3.1-70b-hanami-x1
+      type: chat
+      max_input_tokens: 16000
+      input_price: 3
+      output_price: 3
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: deepseek/deepseek-chat-v3
+      type: chat
+      max_input_tokens: 163840
+      input_price: 0.3
+      output_price: 1.2
+      max_output_tokens: 163840
+      supports_vision: false
+      supports_function_calling: true
+    - name: sao10k/l3.3-euryale-70b-v2.3
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.65
+      output_price: 0.75
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/o1-2024-12-17
+      type: chat
+      max_input_tokens: 200000
+      input_price: 15
+      output_price: 60
+      max_output_tokens: 100000
+      supports_vision: true
+      supports_function_calling: true
+    - name: cohere/command-r7b-12-2024
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.0375
+      output_price: 0.15
+      max_output_tokens: 4000
+      supports_vision: false
+      supports_function_calling: false
+    - name: google/gemini-2.0-flash-exp
+      type: chat
+      max_input_tokens: 1048576
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: true
+    - name: meta-llama/llama-3.3-70b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: meta-llama/llama-3.3-70b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.09999999999999999
+      output_price: 0.32
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: amazon/nova-lite-v1
+      type: chat
+      max_input_tokens: 300000
+      input_price: 0.06
+      output_price: 0.24
+      max_output_tokens: 5120
+      supports_vision: true
+      supports_function_calling: true
+    - name: amazon/nova-micro-v1
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.035
+      output_price: 0.14
+      max_output_tokens: 5120
+      supports_vision: false
+      supports_function_calling: true
+    - name: amazon/nova-pro-v1
+      type: chat
+      max_input_tokens: 300000
+      input_price: 0.7999999999999999
+      output_price: 3.1999999999999997
+      max_output_tokens: 5120
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-4o-2024-11-20
+      type: chat
+      max_input_tokens: 128000
+      input_price: 2.5
+      output_price: 10
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/mistral-large-2411
+      type: chat
+      max_input_tokens: 131072
+      input_price: 2
+      output_price: 6
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-large-2407
+      type: chat
+      max_input_tokens: 131072
+      input_price: 2
+      output_price: 6
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/pixtral-large-2411
+      type: chat
+      max_input_tokens: 131072
+      input_price: 2
+      output_price: 6
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: qwen/qwen-2.5-coder-32b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.03
+      output_price: 0.11
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: false
+    - name: raifle/sorcererlm-8x22b
+      type: chat
+      max_input_tokens: 16000
+      input_price: 4.5
+      output_price: 4.5
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: thedrummer/unslopnemo-12b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.39999999999999997
+      output_price: 0.39999999999999997
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: anthropic/claude-3-5-haiku
+      type: chat
+      max_input_tokens: 200000
+      input_price: 0.7999999999999999
+      output_price: 4
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: true
+    - name: anthropic/claude-3-5-haiku-20241022
+      type: chat
+      max_input_tokens: 200000
+      input_price: 0.7999999999999999
+      output_price: 4
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: true
+    - name: anthropic/claude-3.5-sonnet
+      type: chat
+      max_input_tokens: 200000
+      input_price: 6
+      output_price: 30
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: true
+    - name: anthracite-org/magnum-v4-72b
+      type: chat
+      max_input_tokens: 16384
+      input_price: 3
+      output_price: 5
+      max_output_tokens: 2048
+      supports_vision: false
+      supports_function_calling: false
+    - name: mistralai/ministral-8b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/ministral-3b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.04
+      output_price: 0.04
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen-2.5-7b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.04
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: nvidia/llama-3.1-nemotron-70b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 1.2
+      output_price: 1.2
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: inflection/inflection-3-pi
+      type: chat
+      max_input_tokens: 8000
+      input_price: 2.5
+      output_price: 10
+      max_output_tokens: 1024
+      supports_vision: false
+      supports_function_calling: false
+    - name: inflection/inflection-3-productivity
+      type: chat
+      max_input_tokens: 8000
+      input_price: 2.5
+      output_price: 10
+      max_output_tokens: 1024
+      supports_vision: false
+      supports_function_calling: false
+    - name: thedrummer/rocinante-12b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.16999999999999998
+      output_price: 0.43
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: meta-llama/llama-3.2-11b-vision-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.049
+      output_price: 0.049
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: false
+    - name: meta-llama/llama-3.2-90b-vision-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.35
+      output_price: 0.39999999999999997
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: false
+    - name: meta-llama/llama-3.2-1b-instruct
+      type: chat
+      max_input_tokens: 60000
+      input_price: 0.027
+      output_price: 0.19999999999999998
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: meta-llama/llama-3.2-3b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: meta-llama/llama-3.2-3b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.02
+      output_price: 0.02
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen-2.5-72b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.12
+      output_price: 0.39
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: neversleep/llama-3.1-lumimaid-8b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.09
+      output_price: 0.6
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: mistralai/pixtral-12b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: true
+    - name: cohere/command-r-08-2024
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.15
+      output_price: 0.6
+      max_output_tokens: 4000
+      supports_vision: false
+      supports_function_calling: true
+    - name: cohere/command-r-plus-08-2024
+      type: chat
+      max_input_tokens: 128000
+      input_price: 2.5
+      output_price: 10
+      max_output_tokens: 4000
+      supports_vision: false
+      supports_function_calling: true
+    - name: qwen/qwen-2-vl-7b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: false
+    - name: qwen/qwen-2-vl-7b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
+      max_output_tokens: 0
+      supports_vision: true
+      supports_function_calling: false
+    - name: sao10k/l3.1-euryale-70b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.65
+      output_price: 0.75
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: microsoft/phi-3.5-mini-128k-instruct
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: nousresearch/hermes-3-llama-3.1-70b
+      type: chat
+      max_input_tokens: 65536
+      input_price: 0.3
+      output_price: 0.3
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: nousresearch/hermes-3-llama-3.1-405b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: nousresearch/hermes-3-llama-3.1-405b
+      type: chat
+      max_input_tokens: 131072
+      input_price: 1
+      output_price: 1
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/chatgpt-4o-latest
+      type: chat
+      max_input_tokens: 128000
+      input_price: 5
+      output_price: 15
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: false
+    - name: sao10k/l3-lunaris-8b
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0.04
+      output_price: 0.049999999999999996
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-4o-2024-08-06
+      type: chat
+      max_input_tokens: 128000
+      input_price: 2.5
+      output_price: 10
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: meta-llama/llama-3.1-405b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 4
+      output_price: 4
+      max_output_tokens: 32768
+      supports_vision: false
+      supports_function_calling: false
+    - name: meta-llama/llama-3.1-405b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: meta-llama/llama-3.1-405b-instruct
+      type: chat
+      max_input_tokens: 130815
+      input_price: 3.5
+      output_price: 3.5
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: meta-llama/llama-3.1-8b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.02
+      output_price: 0.03
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: meta-llama/llama-3.1-70b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.39999999999999997
+      output_price: 0.39999999999999997
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-nemo
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.02
+      output_price: 0.04
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-4o-mini-2024-07-18
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.15
+      output_price: 0.6
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-4o-mini
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.15
+      output_price: 0.6
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: google/gemma-2-27b-it
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0.65
+      output_price: 0.65
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: google/gemma-2-9b-it
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0.03
+      output_price: 0.09
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: sao10k/l3-euryale-70b
+      type: chat
+      max_input_tokens: 8192
+      input_price: 1.48
+      output_price: 1.48
+      max_output_tokens: 8192
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-7b-instruct-v0.3
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: false
+    - name: nousresearch/hermes-2-pro-llama-3-8b
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0.024999999999999998
+      output_price: 0.08
+      max_output_tokens: 2048
+      supports_vision: false
+      supports_function_calling: false
+    - name: mistralai/mistral-7b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0
+      output_price: 0
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-7b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.028
+      output_price: 0.054
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: microsoft/phi-3-mini-128k-instruct
+      type: chat
+      max_input_tokens: 128000
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: microsoft/phi-3-medium-128k-instruct
+      type: chat
+      max_input_tokens: 128000
+      input_price: 1
+      output_price: 1
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: meta-llama/llama-guard-2-8b
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-4o-2024-05-13
+      type: chat
+      max_input_tokens: 128000
+      input_price: 5
+      output_price: 15
+      max_output_tokens: 4096
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-4o
+      type: chat
+      max_input_tokens: 128000
+      input_price: 2.5
+      output_price: 10
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: true
+    - name: openai/gpt-4o
+      type: chat
+      max_input_tokens: 128000
+      input_price: 6
+      output_price: 18
+      max_output_tokens: 64000
+      supports_vision: true
+      supports_function_calling: true
+    - name: meta-llama/llama-3-70b-instruct
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0.3
+      output_price: 0.39999999999999997
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: meta-llama/llama-3-8b-instruct
+      type: chat
+      max_input_tokens: 8192
+      input_price: 0.03
+      output_price: 0.06
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mixtral-8x22b-instruct
+      type: chat
+      max_input_tokens: 65536
+      input_price: 2
+      output_price: 6
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: microsoft/wizardlm-2-8x22b
+      type: chat
+      max_input_tokens: 65536
+      input_price: 0.48
+      output_price: 0.48
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-4-turbo
+      type: chat
+      max_input_tokens: 128000
+      input_price: 10
+      output_price: 30
+      max_output_tokens: 4096
+      supports_vision: true
+      supports_function_calling: true
+    - name: anthropic/claude-3-haiku
+      type: chat
+      max_input_tokens: 200000
+      input_price: 0.25
+      output_price: 1.25
+      max_output_tokens: 4096
+      supports_vision: true
+      supports_function_calling: true
+    - name: anthropic/claude-3-opus
+      type: chat
+      max_input_tokens: 200000
+      input_price: 15
+      output_price: 75
+      max_output_tokens: 4096
+      supports_vision: true
+      supports_function_calling: true
+    - name: mistralai/mistral-large
+      type: chat
+      max_input_tokens: 128000
+      input_price: 2
+      output_price: 6
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-3.5-turbo-0613
+      type: chat
+      max_input_tokens: 4095
+      input_price: 1
+      output_price: 2
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-4-turbo-preview
+      type: chat
+      max_input_tokens: 128000
+      input_price: 10
+      output_price: 30
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-tiny
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.25
+      output_price: 0.25
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-7b-instruct-v0.2
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: mistralai/mixtral-8x7b-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.54
+      output_price: 0.54
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
+    - name: neversleep/noromaid-20b
+      type: chat
+      max_input_tokens: 4096
+      input_price: 1
+      output_price: 1.75
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: alpindale/goliath-120b
+      type: chat
+      max_input_tokens: 6144
+      input_price: 6
+      output_price: 8
+      max_output_tokens: 1024
+      supports_vision: false
+      supports_function_calling: false
+    - name: openrouter/auto
+      type: chat
+      max_input_tokens: 2000000
+      input_price: -1e+06
+      output_price: -1e+06
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-4-1106-preview
+      type: chat
+      max_input_tokens: 128000
+      input_price: 10
+      output_price: 30
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: true
+    - name: mistralai/mistral-7b-instruct-v0.1
+      type: chat
+      max_input_tokens: 2824
+      input_price: 0.11
+      output_price: 0.19
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-3.5-turbo-instruct
+      type: chat
+      max_input_tokens: 4095
+      input_price: 1.5
+      output_price: 2
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-3.5-turbo-16k
+      type: chat
+      max_input_tokens: 16385
+      input_price: 3
+      output_price: 4
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: true
+    - name: mancer/weaver
+      type: chat
+      max_input_tokens: 8000
+      input_price: 0.75
+      output_price: 1
+      max_output_tokens: 2000
+      supports_vision: false
+      supports_function_calling: false
+    - name: undi95/remm-slerp-l2-13b
+      type: chat
+      max_input_tokens: 6144
+      input_price: 0.44999999999999996
+      output_price: 0.65
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: gryphe/mythomax-l2-13b
+      type: chat
+      max_input_tokens: 4096
+      input_price: 0.06
+      output_price: 0.06
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: openai/gpt-4
+      type: chat
+      max_input_tokens: 8191
+      input_price: 30
+      output_price: 60
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-4-0314
+      type: chat
+      max_input_tokens: 8191
+      input_price: 30
+      output_price: 60
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: true
+    - name: openai/gpt-3.5-turbo
+      type: chat
+      max_input_tokens: 16385
+      input_price: 0.5
+      output_price: 1.5
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: true
