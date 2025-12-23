@@ -11,9 +11,9 @@
     - name: z-ai/glm-4.7
       type: chat
       max_input_tokens: 202752
-      input_price: 0.4
-      output_price: 1.5
-      max_output_tokens: 65535
+      input_price: 0.44
+      output_price: 1.74
+      max_output_tokens: 131072
       supports_vision: false
       supports_function_calling: true
     - name: google/gemini-3-flash-preview
@@ -27,7 +27,7 @@
     - name: mistralai/mistral-small-creative
       type: chat
       max_input_tokens: 32768
-      input_price: 0.1
+      input_price: 0.09999999999999999
       output_price: 0.3
       max_output_tokens: 0
       supports_vision: false
@@ -99,7 +99,7 @@
     - name: mistralai/devstral-2512
       type: chat
       max_input_tokens: 262144
-      input_price: 0.05
+      input_price: 0.049999999999999996
       output_price: 0.22
       max_output_tokens: 65536
       supports_vision: false
@@ -116,7 +116,7 @@
       type: chat
       max_input_tokens: 131072
       input_price: 0.3
-      output_price: 0.9
+      output_price: 0.8999999999999999
       max_output_tokens: 24000
       supports_vision: true
       supports_function_calling: true
@@ -163,8 +163,8 @@
     - name: mistralai/ministral-14b-2512
       type: chat
       max_input_tokens: 262144
-      input_price: 0.2
-      output_price: 0.2
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
       max_output_tokens: 0
       supports_vision: true
       supports_function_calling: true
@@ -179,8 +179,8 @@
     - name: mistralai/ministral-3b-2512
       type: chat
       max_input_tokens: 131072
-      input_price: 0.1
-      output_price: 0.1
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: true
       supports_function_calling: true
@@ -203,7 +203,7 @@
     - name: arcee-ai/trinity-mini
       type: chat
       max_input_tokens: 131072
-      input_price: 0.05
+      input_price: 0.045
       output_price: 0.15
       max_output_tokens: 131072
       supports_vision: false
@@ -227,7 +227,7 @@
     - name: prime-intellect/intellect-3
       type: chat
       max_input_tokens: 131072
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 1.1
       max_output_tokens: 131072
       supports_vision: false
@@ -267,8 +267,8 @@
     - name: allenai/olmo-3-7b-instruct
       type: chat
       max_input_tokens: 65536
-      input_price: 0.1
-      output_price: 0.2
+      input_price: 0.09999999999999999
+      output_price: 0.19999999999999998
       max_output_tokens: 65536
       supports_vision: false
       supports_function_calling: true
@@ -276,7 +276,7 @@
       type: chat
       max_input_tokens: 65536
       input_price: 0.12
-      output_price: 0.2
+      output_price: 0.19999999999999998
       max_output_tokens: 65536
       supports_vision: false
       supports_function_calling: false
@@ -291,7 +291,7 @@
     - name: x-ai/grok-4.1-fast
       type: chat
       max_input_tokens: 2000000
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 0.5
       max_output_tokens: 30000
       supports_vision: true
@@ -355,7 +355,7 @@
     - name: moonshotai/kimi-k2-thinking
       type: chat
       max_input_tokens: 262144
-      input_price: 0.4
+      input_price: 0.39999999999999997
       output_price: 1.75
       max_output_tokens: 65535
       supports_vision: false
@@ -379,7 +379,7 @@
     - name: mistralai/voxtral-small-24b-2507
       type: chat
       max_input_tokens: 32000
-      input_price: 0.1
+      input_price: 0.09999999999999999
       output_price: 0.3
       max_output_tokens: 0
       supports_vision: false
@@ -387,7 +387,7 @@
     - name: openai/gpt-oss-safeguard-20b
       type: chat
       max_input_tokens: 131072
-      input_price: 0.08
+      input_price: 0.075
       output_price: 0.3
       max_output_tokens: 65536
       supports_vision: false
@@ -403,7 +403,7 @@
     - name: nvidia/nemotron-nano-12b-v2-vl
       type: chat
       max_input_tokens: 131072
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 0.6
       max_output_tokens: 0
       supports_vision: true
@@ -411,7 +411,7 @@
     - name: minimax/minimax-m2
       type: chat
       max_input_tokens: 196608
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 1
       max_output_tokens: 131072
       supports_vision: false
@@ -427,23 +427,23 @@
     - name: liquid/lfm2-8b-a1b
       type: chat
       max_input_tokens: 32768
-      input_price: 0.05
-      output_price: 0.1
+      input_price: 0.049999999999999996
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
     - name: liquid/lfm-2.2-6b
       type: chat
       max_input_tokens: 32768
-      input_price: 0.05
-      output_price: 0.1
+      input_price: 0.049999999999999996
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
     - name: ibm-granite/granite-4.0-h-micro
       type: chat
       max_input_tokens: 131000
-      input_price: 0.02
+      input_price: 0.017
       output_price: 0.11
       max_output_tokens: 0
       supports_vision: false
@@ -476,15 +476,15 @@
       type: chat
       max_input_tokens: 256000
       input_price: 0.18
-      output_price: 2.1
+      output_price: 2.0999999999999996
       max_output_tokens: 32768
       supports_vision: true
       supports_function_calling: true
     - name: qwen/qwen3-vl-8b-instruct
       type: chat
       max_input_tokens: 131072
-      input_price: 0.06
-      output_price: 0.4
+      input_price: 0.064
+      output_price: 0.39999999999999997
       max_output_tokens: 32768
       supports_vision: true
       supports_function_calling: true
@@ -515,16 +515,16 @@
     - name: nvidia/llama-3.3-nemotron-super-49b-v1.5
       type: chat
       max_input_tokens: 131072
-      input_price: 0.1
-      output_price: 0.4
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
     - name: baidu/ernie-4.5-21b-a3b-thinking
       type: chat
       max_input_tokens: 131072
-      input_price: 0.06
-      output_price: 0.22
+      input_price: 0.056
+      output_price: 0.224
       max_output_tokens: 65536
       supports_vision: false
       supports_function_calling: false
@@ -540,7 +540,7 @@
       type: chat
       max_input_tokens: 131072
       input_price: 0.16
-      output_price: 0.8
+      output_price: 0.7999999999999999
       max_output_tokens: 32768
       supports_vision: true
       supports_function_calling: true
@@ -619,8 +619,8 @@
     - name: google/gemini-2.5-flash-lite-preview-09-2025
       type: chat
       max_input_tokens: 1048576
-      input_price: 0.1
-      output_price: 0.4
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
       max_output_tokens: 65536
       supports_vision: true
       supports_function_calling: true
@@ -635,7 +635,7 @@
     - name: qwen/qwen3-vl-235b-a22b-instruct
       type: chat
       max_input_tokens: 262144
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 1.2
       max_output_tokens: 0
       supports_vision: true
@@ -668,7 +668,7 @@
       type: chat
       max_input_tokens: 163840
       input_price: 0.21
-      output_price: 0.79
+      output_price: 0.7899999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
@@ -676,14 +676,14 @@
       type: chat
       max_input_tokens: 163840
       input_price: 0.21
-      output_price: 0.79
+      output_price: 0.7899999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
     - name: x-ai/grok-4-fast
       type: chat
       max_input_tokens: 2000000
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 0.5
       max_output_tokens: 30000
       supports_vision: true
@@ -700,7 +700,7 @@
       type: chat
       max_input_tokens: 131072
       input_price: 0.09
-      output_price: 0.4
+      output_price: 0.39999999999999997
       max_output_tokens: 131072
       supports_vision: false
       supports_function_calling: true
@@ -715,7 +715,7 @@
     - name: opengvlab/internvl3-78b
       type: chat
       max_input_tokens: 32768
-      input_price: 0.1
+      input_price: 0.09999999999999999
       output_price: 0.39
       max_output_tokens: 32768
       supports_vision: true
@@ -739,15 +739,15 @@
     - name: meituan/longcat-flash-chat
       type: chat
       max_input_tokens: 131072
-      input_price: 0.2
-      output_price: 0.8
+      input_price: 0.19999999999999998
+      output_price: 0.7999999999999999
       max_output_tokens: 131072
       supports_vision: false
       supports_function_calling: false
     - name: qwen/qwen-plus-2025-07-28
       type: chat
       max_input_tokens: 1000000
-      input_price: 0.4
+      input_price: 0.39999999999999997
       output_price: 1.2
       max_output_tokens: 32768
       supports_vision: false
@@ -755,7 +755,7 @@
     - name: qwen/qwen-plus-2025-07-28:thinking
       type: chat
       max_input_tokens: 1000000
-      input_price: 0.4
+      input_price: 0.39999999999999997
       output_price: 4
       max_output_tokens: 32768
       supports_vision: false
@@ -811,7 +811,7 @@
     - name: stepfun-ai/step3
       type: chat
       max_input_tokens: 65536
-      input_price: 0.57
+      input_price: 0.5700000000000001
       output_price: 1.42
       max_output_tokens: 65536
       supports_vision: true
@@ -819,15 +819,15 @@
     - name: qwen/qwen3-30b-a3b-thinking-2507
       type: chat
       max_input_tokens: 32768
-      input_price: 0.05
-      output_price: 0.34
+      input_price: 0.051
+      output_price: 0.33999999999999997
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
     - name: x-ai/grok-code-fast-1
       type: chat
       max_input_tokens: 256000
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 1.5
       max_output_tokens: 10000
       supports_vision: false
@@ -875,7 +875,7 @@
     - name: mistralai/mistral-medium-3.1
       type: chat
       max_input_tokens: 131072
-      input_price: 0.4
+      input_price: 0.39999999999999997
       output_price: 2
       max_output_tokens: 0
       supports_vision: true
@@ -883,16 +883,16 @@
     - name: baidu/ernie-4.5-21b-a3b
       type: chat
       max_input_tokens: 120000
-      input_price: 0.06
-      output_price: 0.22
+      input_price: 0.056
+      output_price: 0.224
       max_output_tokens: 8000
       supports_vision: false
       supports_function_calling: true
     - name: baidu/ernie-4.5-vl-28b-a3b
       type: chat
       max_input_tokens: 30000
-      input_price: 0.11
-      output_price: 0.45
+      input_price: 0.112
+      output_price: 0.448
       max_output_tokens: 8000
       supports_vision: true
       supports_function_calling: true
@@ -907,8 +907,8 @@
     - name: ai21/jamba-mini-1.7
       type: chat
       max_input_tokens: 256000
-      input_price: 0.2
-      output_price: 0.4
+      input_price: 0.19999999999999998
+      output_price: 0.39999999999999997
       max_output_tokens: 4096
       supports_vision: false
       supports_function_calling: true
@@ -947,8 +947,8 @@
     - name: openai/gpt-5-nano
       type: chat
       max_input_tokens: 400000
-      input_price: 0.05
-      output_price: 0.4
+      input_price: 0.049999999999999996
+      output_price: 0.39999999999999997
       max_output_tokens: 128000
       supports_vision: true
       supports_function_calling: true
@@ -963,7 +963,7 @@
     - name: openai/gpt-oss-120b
       type: chat
       max_input_tokens: 131072
-      input_price: 0.04
+      input_price: 0.039
       output_price: 0.19
       max_output_tokens: 0
       supports_vision: false
@@ -971,7 +971,7 @@
     - name: openai/gpt-oss-120b:exacto
       type: chat
       max_input_tokens: 131072
-      input_price: 0.04
+      input_price: 0.039
       output_price: 0.19
       max_output_tokens: 0
       supports_vision: false
@@ -1004,7 +1004,7 @@
       type: chat
       max_input_tokens: 256000
       input_price: 0.3
-      output_price: 0.9
+      output_price: 0.8999999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
@@ -1043,8 +1043,8 @@
     - name: z-ai/glm-4.5-air
       type: chat
       max_input_tokens: 131072
-      input_price: 0.1
-      output_price: 0.68
+      input_price: 0.10400000000000001
+      output_price: 0.6799999999999999
       max_output_tokens: 98304
       supports_vision: false
       supports_function_calling: true
@@ -1059,8 +1059,8 @@
     - name: z-ai/glm-4-32b
       type: chat
       max_input_tokens: 128000
-      input_price: 0.1
-      output_price: 0.1
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
@@ -1084,31 +1084,31 @@
       type: chat
       max_input_tokens: 262144
       input_price: 0.22
-      output_price: 1.8
+      output_price: 1.7999999999999998
       max_output_tokens: 65536
       supports_vision: false
       supports_function_calling: true
     - name: bytedance/ui-tars-1.5-7b
       type: chat
       max_input_tokens: 128000
-      input_price: 0.1
-      output_price: 0.2
+      input_price: 0.09999999999999999
+      output_price: 0.19999999999999998
       max_output_tokens: 2048
       supports_vision: true
       supports_function_calling: false
     - name: google/gemini-2.5-flash-lite
       type: chat
       max_input_tokens: 1048576
-      input_price: 0.1
-      output_price: 0.4
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
       max_output_tokens: 65535
       supports_vision: true
       supports_function_calling: true
     - name: qwen/qwen3-235b-a22b-2507
       type: chat
       max_input_tokens: 262144
-      input_price: 0.07
-      output_price: 0.46
+      input_price: 0.071
+      output_price: 0.463
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
@@ -1131,23 +1131,23 @@
     - name: moonshotai/kimi-k2
       type: chat
       max_input_tokens: 131072
-      input_price: 0.46
-      output_price: 1.84
+      input_price: 0.456
+      output_price: 1.8399999999999999
       max_output_tokens: 131072
       supports_vision: false
       supports_function_calling: true
     - name: thudm/glm-4.1v-9b-thinking
       type: chat
       max_input_tokens: 65536
-      input_price: 0.03
-      output_price: 0.11
+      input_price: 0.028
+      output_price: 0.1104
       max_output_tokens: 8000
       supports_vision: true
       supports_function_calling: false
     - name: mistralai/devstral-medium
       type: chat
       max_input_tokens: 131072
-      input_price: 0.4
+      input_price: 0.39999999999999997
       output_price: 2
       max_output_tokens: 0
       supports_vision: false
@@ -1188,7 +1188,7 @@
       type: chat
       max_input_tokens: 131072
       input_price: 0.14
-      output_price: 0.57
+      output_price: 0.5700000000000001
       max_output_tokens: 131072
       supports_vision: false
       supports_function_calling: false
@@ -1211,7 +1211,7 @@
     - name: morph/morph-v3-large
       type: chat
       max_input_tokens: 262144
-      input_price: 0.9
+      input_price: 0.8999999999999999
       output_price: 1.9
       max_output_tokens: 131072
       supports_vision: false
@@ -1219,7 +1219,7 @@
     - name: morph/morph-v3-fast
       type: chat
       max_input_tokens: 81920
-      input_price: 0.8
+      input_price: 0.7999999999999999
       output_price: 1.2
       max_output_tokens: 38000
       supports_vision: false
@@ -1227,7 +1227,7 @@
     - name: baidu/ernie-4.5-vl-424b-a47b
       type: chat
       max_input_tokens: 123000
-      input_price: 0.34
+      input_price: 0.33599999999999997
       output_price: 1
       max_output_tokens: 16000
       supports_vision: true
@@ -1235,7 +1235,7 @@
     - name: baidu/ernie-4.5-300b-a47b
       type: chat
       max_input_tokens: 123000
-      input_price: 0.22
+      input_price: 0.224
       output_price: 0.88
       max_output_tokens: 12000
       supports_vision: false
@@ -1259,7 +1259,7 @@
     - name: minimax/minimax-m1
       type: chat
       max_input_tokens: 1000000
-      input_price: 0.4
+      input_price: 0.39999999999999997
       output_price: 2.2
       max_output_tokens: 40000
       supports_vision: false
@@ -1324,7 +1324,7 @@
       type: chat
       max_input_tokens: 32768
       input_price: 0.02
-      output_price: 0.1
+      output_price: 0.09999999999999999
       max_output_tokens: 32768
       supports_vision: false
       supports_function_calling: false
@@ -1339,7 +1339,7 @@
     - name: deepseek/deepseek-r1-0528
       type: chat
       max_input_tokens: 163840
-      input_price: 0.4
+      input_price: 0.39999999999999997
       output_price: 1.75
       max_output_tokens: 163840
       supports_vision: false
@@ -1396,14 +1396,14 @@
       type: chat
       max_input_tokens: 32768
       input_price: 0.02
-      output_price: 0.1
+      output_price: 0.09999999999999999
       max_output_tokens: 32768
       supports_vision: false
       supports_function_calling: true
     - name: mistralai/mistral-medium-3
       type: chat
       max_input_tokens: 131072
-      input_price: 0.4
+      input_price: 0.39999999999999997
       output_price: 2
       max_output_tokens: 0
       supports_vision: true
@@ -1427,8 +1427,8 @@
     - name: arcee-ai/maestro-reasoning
       type: chat
       max_input_tokens: 131072
-      input_price: 0.9
-      output_price: 3.3
+      input_price: 0.8999999999999999
+      output_price: 3.3000000000000003
       max_output_tokens: 32000
       supports_vision: false
       supports_function_calling: false
@@ -1444,7 +1444,7 @@
       type: chat
       max_input_tokens: 32768
       input_price: 0.5
-      output_price: 0.8
+      output_price: 0.7999999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
@@ -1476,7 +1476,7 @@
       type: chat
       max_input_tokens: 163840
       input_price: 0.5
-      output_price: 2.18
+      output_price: 2.1799999999999997
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
@@ -1499,15 +1499,15 @@
     - name: qwen/qwen3-8b
       type: chat
       max_input_tokens: 128000
-      input_price: 0.03
-      output_price: 0.11
+      input_price: 0.028
+      output_price: 0.1104
       max_output_tokens: 20000
       supports_vision: false
       supports_function_calling: true
     - name: qwen/qwen3-14b
       type: chat
       max_input_tokens: 40960
-      input_price: 0.05
+      input_price: 0.049999999999999996
       output_price: 0.22
       max_output_tokens: 40960
       supports_vision: false
@@ -1587,23 +1587,23 @@
     - name: openai/gpt-4.1-mini
       type: chat
       max_input_tokens: 1047576
-      input_price: 0.4
-      output_price: 1.6
+      input_price: 0.39999999999999997
+      output_price: 1.5999999999999999
       max_output_tokens: 32768
       supports_vision: true
       supports_function_calling: true
     - name: openai/gpt-4.1-nano
       type: chat
       max_input_tokens: 1047576
-      input_price: 0.1
-      output_price: 0.4
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
       max_output_tokens: 32768
       supports_vision: true
       supports_function_calling: true
     - name: eleutherai/llemma_7b
       type: chat
       max_input_tokens: 4096
-      input_price: 0.8
+      input_price: 0.7999999999999999
       output_price: 1.2
       max_output_tokens: 4096
       supports_vision: false
@@ -1611,7 +1611,7 @@
     - name: alfredpros/codellama-7b-instruct-solidity
       type: chat
       max_input_tokens: 4096
-      input_price: 0.8
+      input_price: 0.7999999999999999
       output_price: 1.2
       max_output_tokens: 4096
       supports_vision: false
@@ -1644,7 +1644,7 @@
       type: chat
       max_input_tokens: 131072
       input_price: 0.6
-      output_price: 1.8
+      output_price: 1.7999999999999998
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
@@ -1667,7 +1667,7 @@
     - name: qwen/qwen2.5-vl-32b-instruct
       type: chat
       max_input_tokens: 16384
-      input_price: 0.05
+      input_price: 0.049999999999999996
       output_price: 0.22
       max_output_tokens: 16384
       supports_vision: true
@@ -1675,7 +1675,7 @@
     - name: deepseek/deepseek-chat-v3-0324
       type: chat
       max_input_tokens: 163840
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 0.88
       max_output_tokens: 0
       supports_vision: false
@@ -1707,8 +1707,8 @@
     - name: allenai/olmo-2-0325-32b-instruct
       type: chat
       max_input_tokens: 128000
-      input_price: 0.05
-      output_price: 0.2
+      input_price: 0.049999999999999996
+      output_price: 0.19999999999999998
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
@@ -1723,8 +1723,8 @@
     - name: google/gemma-3-4b-it
       type: chat
       max_input_tokens: 96000
-      input_price: 0.02
-      output_price: 0.07
+      input_price: 0.01703012
+      output_price: 0.0681536
       max_output_tokens: 0
       supports_vision: true
       supports_function_calling: false
@@ -1740,7 +1740,7 @@
       type: chat
       max_input_tokens: 131072
       input_price: 0.03
-      output_price: 0.1
+      output_price: 0.09999999999999999
       max_output_tokens: 131072
       supports_vision: true
       supports_function_calling: false
@@ -1788,15 +1788,15 @@
       type: chat
       max_input_tokens: 32768
       input_price: 0.55
-      output_price: 0.8
+      output_price: 0.7999999999999999
       max_output_tokens: 32768
       supports_vision: false
       supports_function_calling: false
     - name: microsoft/phi-4-multimodal-instruct
       type: chat
       max_input_tokens: 131072
-      input_price: 0.05
-      output_price: 0.1
+      input_price: 0.049999999999999996
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: true
       supports_function_calling: false
@@ -1828,14 +1828,14 @@
       type: chat
       max_input_tokens: 32768
       input_price: 0.15
-      output_price: 0.4
+      output_price: 0.39999999999999997
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
     - name: google/gemini-2.0-flash-lite-001
       type: chat
       max_input_tokens: 1048576
-      input_price: 0.08
+      input_price: 0.075
       output_price: 0.3
       max_output_tokens: 8192
       supports_vision: true
@@ -1859,7 +1859,7 @@
     - name: mistralai/mistral-saba
       type: chat
       max_input_tokens: 32768
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 0.6
       max_output_tokens: 0
       supports_vision: false
@@ -1883,8 +1883,8 @@
     - name: google/gemini-2.0-flash-001
       type: chat
       max_input_tokens: 1048576
-      input_price: 0.1
-      output_price: 0.4
+      input_price: 0.09999999999999999
+      output_price: 0.39999999999999997
       max_output_tokens: 8192
       supports_vision: true
       supports_function_calling: true
@@ -1915,24 +1915,24 @@
     - name: aion-labs/aion-rp-llama-3.1-8b
       type: chat
       max_input_tokens: 32768
-      input_price: 0.8
-      output_price: 1.6
+      input_price: 0.7999999999999999
+      output_price: 1.5999999999999999
       max_output_tokens: 32768
       supports_vision: false
       supports_function_calling: false
     - name: qwen/qwen-vl-max
       type: chat
       max_input_tokens: 131072
-      input_price: 0.8
-      output_price: 3.2
+      input_price: 0.7999999999999999
+      output_price: 3.1999999999999997
       max_output_tokens: 8192
       supports_vision: true
       supports_function_calling: true
     - name: qwen/qwen-turbo
       type: chat
       max_input_tokens: 1000000
-      input_price: 0.05
-      output_price: 0.2
+      input_price: 0.049999999999999996
+      output_price: 0.19999999999999998
       max_output_tokens: 8192
       supports_vision: false
       supports_function_calling: true
@@ -1947,7 +1947,7 @@
     - name: qwen/qwen-plus
       type: chat
       max_input_tokens: 131072
-      input_price: 0.4
+      input_price: 0.39999999999999997
       output_price: 1.2
       max_output_tokens: 8192
       supports_vision: false
@@ -1955,8 +1955,8 @@
     - name: qwen/qwen-max
       type: chat
       max_input_tokens: 32768
-      input_price: 1.6
-      output_price: 6.4
+      input_price: 1.5999999999999999
+      output_price: 6.3999999999999995
       max_output_tokens: 8192
       supports_vision: false
       supports_function_calling: true
@@ -2027,7 +2027,7 @@
     - name: minimax/minimax-01
       type: chat
       max_input_tokens: 1000192
-      input_price: 0.2
+      input_price: 0.19999999999999998
       output_price: 1.1
       max_output_tokens: 1000192
       supports_vision: true
@@ -2075,7 +2075,7 @@
     - name: cohere/command-r7b-12-2024
       type: chat
       max_input_tokens: 128000
-      input_price: 0.04
+      input_price: 0.0375
       output_price: 0.15
       max_output_tokens: 4000
       supports_vision: false
@@ -2099,7 +2099,7 @@
     - name: meta-llama/llama-3.3-70b-instruct
       type: chat
       max_input_tokens: 131072
-      input_price: 0.1
+      input_price: 0.09999999999999999
       output_price: 0.32
       max_output_tokens: 16384
       supports_vision: false
@@ -2115,7 +2115,7 @@
     - name: amazon/nova-micro-v1
       type: chat
       max_input_tokens: 128000
-      input_price: 0.04
+      input_price: 0.035
       output_price: 0.14
       max_output_tokens: 5120
       supports_vision: false
@@ -2123,8 +2123,8 @@
     - name: amazon/nova-pro-v1
       type: chat
       max_input_tokens: 300000
-      input_price: 0.8
-      output_price: 3.2
+      input_price: 0.7999999999999999
+      output_price: 3.1999999999999997
       max_output_tokens: 5120
       supports_vision: true
       supports_function_calling: true
@@ -2179,32 +2179,24 @@
     - name: thedrummer/unslopnemo-12b
       type: chat
       max_input_tokens: 32768
-      input_price: 0.4
-      output_price: 0.4
+      input_price: 0.39999999999999997
+      output_price: 0.39999999999999997
       max_output_tokens: 0
       supports_vision: false
-      supports_function_calling: true
-    - name: anthropic/claude-3.5-haiku
-      type: chat
-      max_input_tokens: 200000
-      input_price: 0.8
-      output_price: 4
-      max_output_tokens: 8192
-      supports_vision: true
       supports_function_calling: true
     - name: anthropic/claude-3.5-haiku-20241022
       type: chat
       max_input_tokens: 200000
-      input_price: 0.8
+      input_price: 0.7999999999999999
       output_price: 4
       max_output_tokens: 8192
       supports_vision: true
       supports_function_calling: true
-    - name: anthropic/claude-3.5-sonnet
+    - name: anthropic/claude-3.5-haiku
       type: chat
       max_input_tokens: 200000
-      input_price: 6
-      output_price: 30
+      input_price: 0.7999999999999999
+      output_price: 4
       max_output_tokens: 8192
       supports_vision: true
       supports_function_calling: true
@@ -2216,11 +2208,19 @@
       max_output_tokens: 2048
       supports_vision: false
       supports_function_calling: false
+    - name: anthropic/claude-3.5-sonnet
+      type: chat
+      max_input_tokens: 200000
+      input_price: 6
+      output_price: 30
+      max_output_tokens: 8192
+      supports_vision: true
+      supports_function_calling: true
     - name: mistralai/ministral-8b
       type: chat
       max_input_tokens: 131072
-      input_price: 0.1
-      output_price: 0.1
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
@@ -2236,7 +2236,7 @@
       type: chat
       max_input_tokens: 32768
       input_price: 0.04
-      output_price: 0.1
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
@@ -2267,35 +2267,11 @@
     - name: thedrummer/rocinante-12b
       type: chat
       max_input_tokens: 32768
-      input_price: 0.17
+      input_price: 0.16999999999999998
       output_price: 0.43
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
-    - name: meta-llama/llama-3.2-11b-vision-instruct
-      type: chat
-      max_input_tokens: 131072
-      input_price: 0.05
-      output_price: 0.05
-      max_output_tokens: 16384
-      supports_vision: true
-      supports_function_calling: false
-    - name: meta-llama/llama-3.2-90b-vision-instruct
-      type: chat
-      max_input_tokens: 32768
-      input_price: 0.35
-      output_price: 0.4
-      max_output_tokens: 16384
-      supports_vision: true
-      supports_function_calling: false
-    - name: meta-llama/llama-3.2-1b-instruct
-      type: chat
-      max_input_tokens: 60000
-      input_price: 0.03
-      output_price: 0.2
-      max_output_tokens: 0
-      supports_vision: false
-      supports_function_calling: false
     - name: meta-llama/llama-3.2-3b-instruct:free
       type: chat
       max_input_tokens: 131072
@@ -2312,6 +2288,30 @@
       max_output_tokens: 16384
       supports_vision: false
       supports_function_calling: true
+    - name: meta-llama/llama-3.2-1b-instruct
+      type: chat
+      max_input_tokens: 60000
+      input_price: 0.027
+      output_price: 0.19999999999999998
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: false
+    - name: meta-llama/llama-3.2-90b-vision-instruct
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.35
+      output_price: 0.39999999999999997
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: false
+    - name: meta-llama/llama-3.2-11b-vision-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.049
+      output_price: 0.049
+      max_output_tokens: 16384
+      supports_vision: true
+      supports_function_calling: false
     - name: qwen/qwen-2.5-72b-instruct
       type: chat
       max_input_tokens: 32768
@@ -2331,8 +2331,8 @@
     - name: mistralai/pixtral-12b
       type: chat
       max_input_tokens: 32768
-      input_price: 0.1
-      output_price: 0.1
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: true
       supports_function_calling: true
@@ -2352,6 +2352,14 @@
       max_output_tokens: 4000
       supports_vision: false
       supports_function_calling: true
+    - name: sao10k/l3.1-euryale-70b
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.65
+      output_price: 0.75
+      max_output_tokens: 0
+      supports_vision: false
+      supports_function_calling: true
     - name: qwen/qwen-2.5-vl-7b-instruct:free
       type: chat
       max_input_tokens: 32768
@@ -2363,24 +2371,16 @@
     - name: qwen/qwen-2.5-vl-7b-instruct
       type: chat
       max_input_tokens: 32768
-      input_price: 0.2
-      output_price: 0.2
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
       max_output_tokens: 0
       supports_vision: true
       supports_function_calling: false
-    - name: sao10k/l3.1-euryale-70b
-      type: chat
-      max_input_tokens: 32768
-      input_price: 0.65
-      output_price: 0.75
-      max_output_tokens: 0
-      supports_vision: false
-      supports_function_calling: true
     - name: microsoft/phi-3.5-mini-128k-instruct
       type: chat
       max_input_tokens: 128000
-      input_price: 0.1
-      output_price: 0.1
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
@@ -2420,7 +2420,7 @@
       type: chat
       max_input_tokens: 8192
       input_price: 0.04
-      output_price: 0.05
+      output_price: 0.049999999999999996
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
@@ -2440,6 +2440,14 @@
       max_output_tokens: 32768
       supports_vision: false
       supports_function_calling: false
+    - name: meta-llama/llama-3.1-8b-instruct
+      type: chat
+      max_input_tokens: 131072
+      input_price: 0.02
+      output_price: 0.03
+      max_output_tokens: 16384
+      supports_vision: false
+      supports_function_calling: true
     - name: meta-llama/llama-3.1-405b-instruct:free
       type: chat
       max_input_tokens: 131072
@@ -2456,19 +2464,11 @@
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
-    - name: meta-llama/llama-3.1-8b-instruct
-      type: chat
-      max_input_tokens: 131072
-      input_price: 0.02
-      output_price: 0.03
-      max_output_tokens: 16384
-      supports_vision: false
-      supports_function_calling: true
     - name: meta-llama/llama-3.1-70b-instruct
       type: chat
       max_input_tokens: 131072
-      input_price: 0.4
-      output_price: 0.4
+      input_price: 0.39999999999999997
+      output_price: 0.39999999999999997
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
@@ -2520,18 +2520,10 @@
       max_output_tokens: 8192
       supports_vision: false
       supports_function_calling: true
-    - name: mistralai/mistral-7b-instruct-v0.3
-      type: chat
-      max_input_tokens: 32768
-      input_price: 0.2
-      output_price: 0.2
-      max_output_tokens: 4096
-      supports_vision: false
-      supports_function_calling: false
     - name: nousresearch/hermes-2-pro-llama-3-8b
       type: chat
       max_input_tokens: 8192
-      input_price: 0.03
+      input_price: 0.024999999999999998
       output_price: 0.08
       max_output_tokens: 2048
       supports_vision: false
@@ -2547,16 +2539,24 @@
     - name: mistralai/mistral-7b-instruct
       type: chat
       max_input_tokens: 32768
-      input_price: 0.03
-      output_price: 0.05
+      input_price: 0.028
+      output_price: 0.054
       max_output_tokens: 16384
       supports_vision: false
       supports_function_calling: true
+    - name: mistralai/mistral-7b-instruct-v0.3
+      type: chat
+      max_input_tokens: 32768
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
+      max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: false
     - name: microsoft/phi-3-mini-128k-instruct
       type: chat
       max_input_tokens: 128000
-      input_price: 0.1
-      output_price: 0.1
+      input_price: 0.09999999999999999
+      output_price: 0.09999999999999999
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: true
@@ -2571,8 +2571,8 @@
     - name: meta-llama/llama-guard-2-8b
       type: chat
       max_input_tokens: 8192
-      input_price: 0.2
-      output_price: 0.2
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
@@ -2604,7 +2604,7 @@
       type: chat
       max_input_tokens: 8192
       input_price: 0.3
-      output_price: 0.4
+      output_price: 0.39999999999999997
       max_output_tokens: 16384
       supports_vision: false
       supports_function_calling: true
@@ -2691,8 +2691,8 @@
     - name: mistralai/mistral-7b-instruct-v0.2
       type: chat
       max_input_tokens: 32768
-      input_price: 0.2
-      output_price: 0.2
+      input_price: 0.19999999999999998
+      output_price: 0.19999999999999998
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
@@ -2736,20 +2736,20 @@
       max_output_tokens: 4096
       supports_vision: false
       supports_function_calling: true
-    - name: mistralai/mistral-7b-instruct-v0.1
-      type: chat
-      max_input_tokens: 2824
-      input_price: 0.11
-      output_price: 0.19
-      max_output_tokens: 0
-      supports_vision: false
-      supports_function_calling: false
     - name: openai/gpt-3.5-turbo-instruct
       type: chat
       max_input_tokens: 4095
       input_price: 1.5
       output_price: 2
       max_output_tokens: 4096
+      supports_vision: false
+      supports_function_calling: false
+    - name: mistralai/mistral-7b-instruct-v0.1
+      type: chat
+      max_input_tokens: 2824
+      input_price: 0.11
+      output_price: 0.19
+      max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
     - name: openai/gpt-3.5-turbo-16k
@@ -2771,7 +2771,7 @@
     - name: undi95/remm-slerp-l2-13b
       type: chat
       max_input_tokens: 6144
-      input_price: 0.45
+      input_price: 0.44999999999999996
       output_price: 0.65
       max_output_tokens: 0
       supports_vision: false
@@ -2784,7 +2784,7 @@
       max_output_tokens: 0
       supports_vision: false
       supports_function_calling: false
-    - name: openai/gpt-4
+    - name: openai/gpt-4-0314
       type: chat
       max_input_tokens: 8191
       input_price: 30
@@ -2792,7 +2792,7 @@
       max_output_tokens: 4096
       supports_vision: false
       supports_function_calling: true
-    - name: openai/gpt-4-0314
+    - name: openai/gpt-4
       type: chat
       max_input_tokens: 8191
       input_price: 30
