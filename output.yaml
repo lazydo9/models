@@ -138,7 +138,7 @@
       supports_function_calling: false
     - name: openrouter/bodybuilder
       type: chat
-      max_input_tokens: 0
+      max_input_tokens: 128000
       input_price: -1e+06
       output_price: -1e+06
       max_output_tokens: 0
@@ -2722,7 +2722,7 @@
       supports_function_calling: false
     - name: openrouter/auto
       type: chat
-      max_input_tokens: 0
+      max_input_tokens: 2000000
       input_price: -1e+06
       output_price: -1e+06
       max_output_tokens: 0
